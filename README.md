@@ -1,2 +1,2 @@
-# skills-game
-skills-game
+# Arcade Games Hub
+Arcade Games Hub

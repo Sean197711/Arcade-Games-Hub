@@ -1,0 +1,599 @@
+/* ============================================================
+   街机小游戏乐园 - 全局样式（明亮活泼街机风）
+   ============================================================ */
+:root {
+  --ink: #1e1e2f;
+  --paper: #fff8e7;
+  --yellow: #ffd23f;
+  --pink: #ff5da2;
+  --cyan: #3ec1f3;
+  --purple: #7c4dff;
+  --green: #4ade80;
+  --orange: #ff8a3d;
+  --red: #ff5252;
+  --radius: 18px;
+  --shadow: 6px 6px 0 var(--ink);
+  --shadow-sm: 4px 4px 0 var(--ink);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", system-ui, -apple-system, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  background-image:
+    radial-gradient(rgba(30, 30, 47, 0.06) 2px, transparent 2px);
+  background-size: 28px 28px;
+}
+
+h1, h2, h3, .logo, .btn, .game-title {
+  font-family: "ZCOOL KuaiLe", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+a { color: inherit; }
+
+img { max-width: 100%; }
+
+/* ---------- 顶部导航 ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--yellow);
+  border-bottom: 4px solid var(--ink);
+}
+
+.nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.logo .logo-icon {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background: var(--ink);
+  color: var(--yellow);
+  border-radius: 12px;
+  font-size: 1.3rem;
+}
+
+.nav-links { display: flex; gap: 6px; list-style: none; flex-wrap: wrap; }
+
+.nav-links a {
+  display: inline-block;
+  padding: 6px 14px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  transition: all 0.15s ease;
+}
+
+.nav-links a:hover,
+.nav-links a[aria-current="page"] {
+  background: var(--ink);
+  color: var(--yellow);
+  border-color: var(--ink);
+}
+
+/* ---------- 首屏 Hero ---------- */
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 56px 20px 40px;
+  text-align: center;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: var(--pink);
+  color: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 999px;
+  padding: 4px 18px;
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+  transform: rotate(-2deg);
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  margin-bottom: 16px;
+}
+
+.hero h1 .hl {
+  background: linear-gradient(transparent 55%, var(--cyan) 55%);
+  padding: 0 6px;
+}
+
+.hero p {
+  max-width: 640px;
+  margin: 0 auto 28px;
+  font-size: 1.08rem;
+  color: #444;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.hero-stats span {
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  padding: 8px 18px;
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* ---------- 游戏卡片网格 ---------- */
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+}
+
+.section-title {
+  font-size: 1.9rem;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-title::before {
+  content: "";
+  width: 14px;
+  height: 34px;
+  background: var(--pink);
+  border: 3px solid var(--ink);
+  border-radius: 6px;
+}
+
+.section-desc { color: #555; margin-bottom: 26px; }
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 26px;
+  list-style: none;
+}
+
+.game-card {
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.game-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 var(--ink);
+}
+
+.game-card .card-banner {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  border-bottom: 4px solid var(--ink);
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+}
+
+.game-card .card-body { padding: 18px 20px 22px; flex: 1; display: flex; flex-direction: column; }
+
+.game-card h3 { font-size: 1.35rem; margin-bottom: 6px; }
+
+.game-card .card-tags { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+
+.game-card .tag {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--paper);
+}
+
+.game-card p { color: #555; font-size: 0.95rem; flex: 1; }
+
+.game-card .play-link {
+  margin-top: 14px;
+  align-self: flex-start;
+}
+
+/* ---------- 按钮 ---------- */
+.btn {
+  display: inline-block;
+  background: var(--yellow);
+  color: var(--ink);
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  padding: 10px 26px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--ink); }
+.btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+
+.btn-pink { background: var(--pink); color: #fff; }
+.btn-cyan { background: var(--cyan); }
+.btn-green { background: var(--green); }
+.btn-sm { padding: 6px 16px; font-size: 0.92rem; }
+
+/* ---------- 面包屑 ---------- */
+.breadcrumb {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 20px 0;
+  font-size: 0.9rem;
+}
+
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+.breadcrumb li::after { content: "›"; margin-left: 6px; color: #999; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--purple); text-decoration: none; font-weight: 700; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+/* ---------- 游戏页面布局 ---------- */
+.game-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.game-page h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); margin-bottom: 6px; }
+.game-page .game-sub { color: #555; margin-bottom: 24px; }
+
+.game-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 30px;
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .game-layout { grid-template-columns: 1fr; }
+}
+
+.stage {
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.stage canvas {
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  background: #141428;
+  max-width: 100%;
+  touch-action: none;
+}
+
+.hud {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.hud .hud-item {
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  padding: 6px 16px;
+  font-weight: 700;
+  min-width: 96px;
+  text-align: center;
+}
+
+.hud .hud-item small { display: block; font-size: 0.72rem; color: #777; font-weight: 400; }
+
+.controls-row { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+
+/* 移动端方向键 */
+.pad {
+  display: none;
+  grid-template-columns: repeat(3, 64px);
+  grid-template-rows: repeat(2, 56px);
+  gap: 8px;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.pad button {
+  font-size: 1.4rem;
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  background: var(--cyan);
+  box-shadow: 3px 3px 0 var(--ink);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.pad button:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+
+@media (hover: none) and (pointer: coarse) {
+  .pad { display: grid; }
+}
+
+/* 侧边栏 */
+.side-panel { display: flex; flex-direction: column; gap: 22px; }
+
+.panel {
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+
+.panel h2 { font-size: 1.2rem; margin-bottom: 10px; }
+.panel ul, .panel ol { padding-left: 20px; color: #444; font-size: 0.95rem; }
+.panel li { margin-bottom: 6px; }
+.panel kbd {
+  background: var(--ink);
+  color: #fff;
+  border-radius: 6px;
+  padding: 1px 7px;
+  font-size: 0.82rem;
+  font-family: inherit;
+}
+
+.more-games { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.more-games a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 12px;
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  background: var(--paper);
+  transition: transform 0.12s ease;
+}
+.more-games a:hover { transform: translateX(4px); background: var(--yellow); }
+
+/* ---------- 内容区（SEO 文案） ---------- */
+.prose {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 20px 60px;
+}
+
+.prose h2 { font-size: 1.5rem; margin: 28px 0 10px; }
+.prose p { color: #444; margin-bottom: 12px; max-width: 760px; }
+
+/* ---------- 页脚 ---------- */
+.site-footer {
+  border-top: 4px solid var(--ink);
+  background: var(--ink);
+  color: #cfcfe8;
+  padding: 34px 20px;
+  text-align: center;
+}
+
+.site-footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  list-style: none;
+}
+
+.site-footer a { color: var(--yellow); text-decoration: none; font-weight: 700; }
+.site-footer a:hover { text-decoration: underline; }
+.site-footer p { font-size: 0.88rem; }
+
+/* ---------- 游戏特定元素 ---------- */
+.grid-board {
+  display: grid;
+  gap: 6px;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+/* 2048 */
+.board-2048 {
+  background: #141428;
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  padding: 8px;
+  grid-template-columns: repeat(4, 1fr);
+  width: min(92vw, 400px);
+}
+
+.cell-2048 {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1.2rem, 6vw, 1.9rem);
+  font-weight: 800;
+  border-radius: 10px;
+  background: #24244a;
+  color: #fff;
+  font-family: "ZCOOL KuaiLe", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  transition: background 0.1s ease;
+}
+
+/* 扫雷 */
+.board-mine { gap: 3px; }
+.cell-mine {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1rem;
+  background: var(--cyan);
+  border: 2px solid var(--ink);
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+.cell-mine.open { background: #fff; cursor: default; }
+.cell-mine.flag { background: var(--yellow); }
+.cell-mine.boom { background: var(--red); }
+
+/* 记忆翻牌 */
+.board-memory { grid-template-columns: repeat(4, 1fr); width: min(92vw, 420px); gap: 10px; }
+.card-mem {
+  aspect-ratio: 1;
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  background: var(--purple);
+  color: transparent;
+  font-size: clamp(1.6rem, 8vw, 2.4rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ink);
+  transition: transform 0.15s ease, background 0.15s ease;
+  user-select: none;
+}
+.card-mem.flipped { background: #fff; color: var(--ink); transform: rotateY(180deg); }
+.card-mem.matched { background: var(--green); color: var(--ink); cursor: default; }
+
+/* 提示浮层 */
+.toast {
+  position: fixed;
+  left: 50%;
+  top: 18%;
+  transform: translateX(-50%) rotate(-2deg);
+  background: var(--ink);
+  color: var(--yellow);
+  font-family: "ZCOOL KuaiLe", sans-serif;
+  font-size: 1.4rem;
+  padding: 14px 34px;
+  border-radius: 16px;
+  border: 3px solid var(--yellow);
+  box-shadow: var(--shadow-sm);
+  z-index: 100;
+  display: none;
+}
+.toast.show { display: block; animation: pop 0.25s ease; }
+
+@keyframes pop {
+  from { transform: translateX(-50%) scale(0.7) rotate(-2deg); opacity: 0; }
+  to { transform: translateX(-50%) scale(1) rotate(-2deg); opacity: 1; }
+}
+
+@media (max-width: 640px) {
+  .nav { flex-direction: column; gap: 8px; }
+  .hero { padding-top: 36px; }
+}
+
+/* ---------- 语言切换器 ---------- */
+.lang-switch { position: relative; }
+
+.lang-switch summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 6px 14px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: #fff;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.lang-switch summary::-webkit-details-marker { display: none; }
+.lang-switch summary:hover { background: var(--paper); }
+.lang-switch[open] summary { background: var(--ink); color: var(--yellow); }
+
+.lang-switch ul {
+  position: absolute;
+  top: calc(100% + 6px);
+  inset-inline-end: 0;
+  z-index: 60;
+  list-style: none;
+  min-width: 150px;
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  padding: 6px;
+}
+
+.lang-switch ul a {
+  display: block;
+  padding: 7px 14px;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 9px;
+}
+
+.lang-switch ul a:hover { background: var(--yellow); }
+.lang-switch ul a.cur { background: var(--ink); color: var(--yellow); }
+
+/* ---------- RTL（阿拉伯语）适配 ---------- */
+[dir="rtl"] .panel ul,
+[dir="rtl"] .panel ol { padding-left: 0; padding-right: 20px; }
+
+[dir="rtl"] .breadcrumb li::after { content: "‹"; margin-left: 0; margin-right: 6px; }
+
+[dir="rtl"] .more-games a:hover { transform: translateX(-4px); }
+
+[dir="rtl"] .section-title { flex-direction: row-reverse; justify-content: flex-end; }
+
+[dir="rtl"] .game-card:hover { transform: translate(3px, -3px); box-shadow: -9px 9px 0 var(--ink); }
+
+[dir="rtl"] .btn:hover { transform: translate(2px, -2px); box-shadow: -6px 6px 0 var(--ink); }
+
+[dir="rtl"] body,
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] .btn {
+  font-family: "Segoe UI", "Noto Sans Arabic", "Tahoma", sans-serif;
+}

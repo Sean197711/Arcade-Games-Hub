@@ -1,0 +1,17 @@
+{
+  "name": "Arcade Games Hub",
+  "short_name": "Games Hub",
+  "description": "Free online classic mini games. No downloads — play instantly.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8e7",
+  "theme_color": "#ffd23f",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

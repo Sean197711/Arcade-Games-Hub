@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2048 online - Juega gratis al puzle de números | Arcade de Minijuegos</title>
+  <meta name="description" content="Desliza y combina números iguales hasta llegar a 2048. Reglas simples, estrategia infinita." />
+  <meta name="keywords" content="2048,2048 online,juego 2048,puzle de números,juego gratis 2048" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://games.example.com/es/games/2048/" />
+  <link rel="alternate" hreflang="en" href="https://games.example.com/games/2048/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/2048/" />
+  <link rel="alternate" hreflang="es" href="https://games.example.com/es/games/2048/" />
+  <link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/2048/" />
+  <link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/2048/" />
+  <link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/2048/" />
+  <link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/2048/" />
+  <link rel="alternate" hreflang="x-default" href="https://games.example.com/games/2048/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Arcade de Minijuegos" />
+  <meta property="og:title" content="2048 online - Juega gratis al puzle de números | Arcade de Minijuegos" />
+  <meta property="og:description" content="Desliza y combina números iguales hasta llegar a 2048. Reglas simples, estrategia infinita." />
+  <meta property="og:url" content="https://games.example.com/es/games/2048/" />
+  <meta property="og:locale" content="es_ES" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2048 online - Juega gratis al puzle de números | Arcade de Minijuegos" />
+  <meta name="twitter:description" content="Desliza y combina números iguales hasta llegar a 2048. Reglas simples, estrategia infinita." />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#ffd23f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" /></noscript>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "2048",
+  "url": "https://games.example.com/es/games/2048/",
+  "description": "Desliza y combina números iguales hasta llegar a 2048. Reglas simples, estrategia infinita.",
+  "genre": "Puzle",
+  "gamePlatform": "Web Browser",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "inLanguage": "es",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://games.example.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "2048",
+      "item": "https://games.example.com/es/games/2048/"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="logo" href="/es/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade de Minijuegos</a>
+      <ul class="nav-links">
+        <li><a href="/es/">Inicio</a></li>
+        <li><a href="/es/#games">Todos los juegos</a></li>
+        
+      </ul>
+      <details class="lang-switch"><summary aria-label="Language / 语言">🌐 Español</summary><ul><li><a href="/games/2048/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/2048/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/2048/" hreflang="es" lang="es" class="cur">Español</a></li><li><a href="/ar/games/2048/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/2048/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/2048/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/2048/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
+    </nav>
+  </header>
+  <nav class="breadcrumb" aria-label="Migas de pan">
+    <ol>
+      <li><a href="/es/">Inicio</a></li>
+      <li aria-current="page">2048</li>
+    </ol>
+  </nav>
+
+  <main class="game-page">
+    <h1>🔢 2048</h1>
+    <p class="game-sub">¡Desliza las fichas, combina números iguales y llega de 2 a 2048!</p>
+
+    <div class="game-layout">
+      <section class="stage" aria-label="Zona de juego">
+        <div class="hud">
+          <div class="hud-item"><small>Puntos</small><span id="score">0</span></div><div class="hud-item"><small>Récord</small><span id="best">0</span></div>
+        </div>
+        <div id="board" class="grid-board board-2048" role="grid" aria-label="Tablero del juego 2048"></div>
+        <div class="controls-row"><button class="btn btn-pink" id="btn-restart" type="button">Reiniciar</button></div>
+        
+      </section>
+
+      <aside class="side-panel">
+        <section class="panel">
+          <h2>🎯 Cómo jugar</h2>
+          <ul>
+            <li>En PC: usa <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> o <kbd>WASD</kbd> para deslizar todas las fichas.</li>
+            <li>En móvil: desliza el dedo sobre el tablero en cualquier dirección.</li>
+            <li>Las fichas con el mismo número se fusionan al chocar.</li>
+            <li>Tras cada movimiento aparece un 2 o un 4 nuevo.</li>
+            <li>Llega a 2048 para ganar; si no hay movimientos, la partida termina.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>💡 Consejos</h2>
+          <ul>
+            <li>Fija tu número mayor en una esquina y no lo muevas.</li>
+            <li>Intenta deslizar solo en dos direcciones para mantener el orden.</li>
+            <li>Ordena los números de mayor a menor en forma de serpiente para fusionar mejor.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>🕹️ Más juegos</h2>
+          <ul class="more-games">
+            <li><a href="/es/games/snake/">🐍 Snake</a></li>
+            <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
+            <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
+            <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
+            <li><a href="/es/games/memory/">🃏 Memoria</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>window.GAME_I18N = {"win": "🎉 ¡Lograste 2048! Sigue por más puntos", "gameOver": "¡Fin del juego! Puntos: {score}", "newGame": "¡Nueva partida!"};</script>
+  <script src="/assets/js/games/g2048.js" defer></script>
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="/es/">Inicio</a></li>
+      <li><a href="/es/games/snake/">🐍 Snake</a></li>
+      <li><a href="/es/games/2048/">🔢 2048</a></li>
+      <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
+      <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
+      <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
+      <li><a href="/es/games/memory/">🃏 Memoria</a></li>
+    </ul>
+    <p>© 2026 Arcade de Minijuegos · Juegos en línea gratis, juega al instante</p>
+  </footer>
+</body>
+</html>

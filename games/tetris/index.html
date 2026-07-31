@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tetris Online - Play Free Classic Block Game | Arcade Games Hub</title>
+  <meta name="description" content="Rotate, drop and clear full lines in the timeless block-stacking classic." />
+  <meta name="keywords" content="tetris,tetris online,block game,classic tetris,free tetris" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://games.example.com/games/tetris/" />
+  <link rel="alternate" hreflang="en" href="https://games.example.com/games/tetris/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/tetris/" />
+  <link rel="alternate" hreflang="es" href="https://games.example.com/es/games/tetris/" />
+  <link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/tetris/" />
+  <link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/tetris/" />
+  <link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/tetris/" />
+  <link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/tetris/" />
+  <link rel="alternate" hreflang="x-default" href="https://games.example.com/games/tetris/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Arcade Games Hub" />
+  <meta property="og:title" content="Tetris Online - Play Free Classic Block Game | Arcade Games Hub" />
+  <meta property="og:description" content="Rotate, drop and clear full lines in the timeless block-stacking classic." />
+  <meta property="og:url" content="https://games.example.com/games/tetris/" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Tetris Online - Play Free Classic Block Game | Arcade Games Hub" />
+  <meta name="twitter:description" content="Rotate, drop and clear full lines in the timeless block-stacking classic." />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#ffd23f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" /></noscript>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Tetris",
+  "url": "https://games.example.com/games/tetris/",
+  "description": "Rotate, drop and clear full lines in the timeless block-stacking classic.",
+  "genre": "Arcade",
+  "gamePlatform": "Web Browser",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "inLanguage": "en",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://games.example.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tetris",
+      "item": "https://games.example.com/games/tetris/"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="logo" href="/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade Games Hub</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#games">All games</a></li>
+        
+      </ul>
+      <details class="lang-switch"><summary aria-label="Language / 语言">🌐 English</summary><ul><li><a href="/games/tetris/" hreflang="en" lang="en" class="cur">English</a></li><li><a href="/zh/games/tetris/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/tetris/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/tetris/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/tetris/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/tetris/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/tetris/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
+    </nav>
+  </header>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li aria-current="page">Tetris</li>
+    </ol>
+  </nav>
+
+  <main class="game-page">
+    <h1>🧱 Tetris</h1>
+    <p class="game-sub">Rotate, move and stack the falling pieces — complete a row to clear it. Level up every 10 lines!</p>
+
+    <div class="game-layout">
+      <section class="stage" aria-label="Game area">
+        <div class="hud">
+          <div class="hud-item"><small>Score</small><span id="score">0</span></div><div class="hud-item"><small>Lines</small><span id="lines">0</span></div><div class="hud-item"><small>Level</small><span id="level">1</span></div>
+        </div>
+        <div style="display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;justify-content:center;">
+          <canvas id="game-canvas" width="240" height="480" role="img" aria-label="Tetris game board"></canvas>
+          <div style="display:flex;flex-direction:column;gap:8px;align-items:center;">
+            <strong>Next</strong>
+            <canvas id="next-canvas" width="96" height="84" style="background:#141428;border:3px solid var(--ink);border-radius:12px;" role="img" aria-label="Next"></canvas>
+          </div>
+        </div>
+        <div class="controls-row"><button class="btn btn-green" id="btn-start" type="button">Start</button><button class="btn btn-cyan" id="btn-pause" type="button">Pause</button><button class="btn btn-pink" id="btn-restart" type="button">Restart</button></div>
+        <div class="pad" aria-label="Touch controls" style="grid-template-columns:repeat(5,60px);grid-template-rows:56px;">
+          <button type="button" data-act="left" aria-label="Left">◀</button>
+          <button type="button" data-act="rotate" aria-label="Rotate">⟳</button>
+          <button type="button" data-act="right" aria-label="Right">▶</button>
+          <button type="button" data-act="down" aria-label="Soft drop">▼</button>
+          <button type="button" data-act="drop" aria-label="Hard drop">⤓</button>
+        </div>
+      </section>
+
+      <aside class="side-panel">
+        <section class="panel">
+          <h2>🎯 How to play</h2>
+          <ul>
+            <li><kbd>←</kbd><kbd>→</kbd> move the piece, <kbd>↓</kbd> speeds up the fall.</li>
+            <li><kbd>↑</kbd> or <kbd>W</kbd> rotates, <kbd>Space</kbd> drops the piece instantly.</li>
+            <li>Complete a full row to clear it; clearing multiple rows at once scores more.</li>
+            <li>The game ends when the stack reaches the top.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>💡 Pro tips</h2>
+          <ul>
+            <li>Keep one column open as a well for the I-piece to clear four lines.</li>
+            <li>Keep the surface flat and avoid holes.</li>
+            <li>At higher levels, plan where the next piece goes in advance.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>🕹️ More games</h2>
+          <ul class="more-games">
+            <li><a href="/games/snake/">🐍 Snake</a></li>
+            <li><a href="/games/2048/">🔢 2048</a></li>
+            <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+            <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+            <li><a href="/games/memory/">🃏 Memory Match</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>window.GAME_I18N = {"gameOver": "Game over! Score: {score}", "paused": "Paused"};</script>
+  <script src="/assets/js/games/tetris.js" defer></script>
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/games/snake/">🐍 Snake</a></li>
+      <li><a href="/games/2048/">🔢 2048</a></li>
+      <li><a href="/games/tetris/">🧱 Tetris</a></li>
+      <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+      <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+      <li><a href="/games/memory/">🃏 Memory Match</a></li>
+    </ul>
+    <p>© 2026 Arcade Games Hub · Free online games, play instantly</p>
+  </footer>
+</body>
+</html>

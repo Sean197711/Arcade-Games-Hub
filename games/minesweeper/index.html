@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minesweeper Online - Play Free Classic Puzzle Game | Arcade Games Hub</title>
+  <meta name="description" content="Use number clues to deduce where the mines are. Flag them all to win!" />
+  <meta name="keywords" content="minesweeper,minesweeper online,minesweeper game,classic minesweeper,free minesweeper" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://games.example.com/games/minesweeper/" />
+  <link rel="alternate" hreflang="en" href="https://games.example.com/games/minesweeper/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/minesweeper/" />
+  <link rel="alternate" hreflang="es" href="https://games.example.com/es/games/minesweeper/" />
+  <link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/minesweeper/" />
+  <link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/minesweeper/" />
+  <link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/minesweeper/" />
+  <link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/minesweeper/" />
+  <link rel="alternate" hreflang="x-default" href="https://games.example.com/games/minesweeper/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Arcade Games Hub" />
+  <meta property="og:title" content="Minesweeper Online - Play Free Classic Puzzle Game | Arcade Games Hub" />
+  <meta property="og:description" content="Use number clues to deduce where the mines are. Flag them all to win!" />
+  <meta property="og:url" content="https://games.example.com/games/minesweeper/" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Minesweeper Online - Play Free Classic Puzzle Game | Arcade Games Hub" />
+  <meta name="twitter:description" content="Use number clues to deduce where the mines are. Flag them all to win!" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#ffd23f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" /></noscript>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Minesweeper",
+  "url": "https://games.example.com/games/minesweeper/",
+  "description": "Use number clues to deduce where the mines are. Flag them all to win!",
+  "genre": "Puzzle",
+  "gamePlatform": "Web Browser",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "inLanguage": "en",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://games.example.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Minesweeper",
+      "item": "https://games.example.com/games/minesweeper/"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="logo" href="/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade Games Hub</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#games">All games</a></li>
+        
+      </ul>
+      <details class="lang-switch"><summary aria-label="Language / 语言">🌐 English</summary><ul><li><a href="/games/minesweeper/" hreflang="en" lang="en" class="cur">English</a></li><li><a href="/zh/games/minesweeper/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/minesweeper/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/minesweeper/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/minesweeper/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/minesweeper/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/minesweeper/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
+    </nav>
+  </header>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li aria-current="page">Minesweeper</li>
+    </ol>
+  </nav>
+
+  <main class="game-page">
+    <h1>💣 Minesweeper</h1>
+    <p class="game-sub">The number tells you how many mines hide in the 8 surrounding cells. Deduce and flag them all!</p>
+
+    <div class="game-layout">
+      <section class="stage" aria-label="Game area">
+        <div class="hud">
+          <div class="hud-item"><small>Mines left</small><span id="mines">10</span></div><div class="hud-item"><small>Status</small><span id="status">🙂</span></div><div class="hud-item"><small>Time (s)</small><span id="time">0</span></div>
+        </div>
+        <div class="controls-row">
+          <label for="difficulty" style="font-weight:700;">Difficulty: </label>
+          <select id="difficulty" style="font-family:inherit;font-size:1rem;padding:6px 12px;border:3px solid var(--ink);border-radius:10px;background:#fff;">
+            <option value="easy" selected>Easy 9×9 (10 mines)</option><option value="medium">Medium 12×12 (24 mines)</option><option value="hard">Hard 16×16 (40 mines)</option>
+          </select>
+          <button class="btn btn-pink" id="btn-restart" type="button">Restart</button>
+        </div>
+        <div style="overflow-x:auto;max-width:100%;">
+          <div id="board" class="grid-board board-mine" role="grid" aria-label="Minesweeper board"></div>
+        </div>
+        
+        
+      </section>
+
+      <aside class="side-panel">
+        <section class="panel">
+          <h2>🎯 How to play</h2>
+          <ul>
+            <li>Left-click (tap on mobile) to reveal a cell.</li>
+            <li>Right-click (long-press on mobile) to place or remove a flag.</li>
+            <li>A number shows how many mines are in the 8 surrounding cells.</li>
+            <li>Reveal all safe cells to win; your first click is always safe.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>💡 Pro tips</h2>
+          <ul>
+            <li>Start from corners and edges where clues are easier.</li>
+            <li>If a number already has enough flags around it, the rest of its neighbors are safe.</li>
+            <li>Not sure? Mark the cell and break through from another area first.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>🕹️ More games</h2>
+          <ul class="more-games">
+            <li><a href="/games/snake/">🐍 Snake</a></li>
+            <li><a href="/games/2048/">🔢 2048</a></li>
+            <li><a href="/games/tetris/">🧱 Tetris</a></li>
+            <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+            <li><a href="/games/memory/">🃏 Memory Match</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>window.GAME_I18N = {"boom": "Boom! You hit a mine. Time: {time}s", "win": "🎉 Cleared! Time: {time}s"};</script>
+  <script src="/assets/js/games/minesweeper.js" defer></script>
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/games/snake/">🐍 Snake</a></li>
+      <li><a href="/games/2048/">🔢 2048</a></li>
+      <li><a href="/games/tetris/">🧱 Tetris</a></li>
+      <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+      <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+      <li><a href="/games/memory/">🃏 Memory Match</a></li>
+    </ul>
+    <p>© 2026 Arcade Games Hub · Free online games, play instantly</p>
+  </footer>
+</body>
+</html>

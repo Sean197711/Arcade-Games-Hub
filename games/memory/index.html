@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Match Online - Free Memory Training Game | Arcade Games Hub</title>
+  <meta name="description" content="Flip cards, remember the icons and match all the pairs to train your memory." />
+  <meta name="keywords" content="memory match,memory game,matching pairs,card flip game,brain training,free memory game" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://games.example.com/games/memory/" />
+  <link rel="alternate" hreflang="en" href="https://games.example.com/games/memory/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/memory/" />
+  <link rel="alternate" hreflang="es" href="https://games.example.com/es/games/memory/" />
+  <link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/memory/" />
+  <link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/memory/" />
+  <link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/memory/" />
+  <link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/memory/" />
+  <link rel="alternate" hreflang="x-default" href="https://games.example.com/games/memory/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Arcade Games Hub" />
+  <meta property="og:title" content="Memory Match Online - Free Memory Training Game | Arcade Games Hub" />
+  <meta property="og:description" content="Flip cards, remember the icons and match all the pairs to train your memory." />
+  <meta property="og:url" content="https://games.example.com/games/memory/" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Memory Match Online - Free Memory Training Game | Arcade Games Hub" />
+  <meta name="twitter:description" content="Flip cards, remember the icons and match all the pairs to train your memory." />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#ffd23f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" /></noscript>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Memory Match",
+  "url": "https://games.example.com/games/memory/",
+  "description": "Flip cards, remember the icons and match all the pairs to train your memory.",
+  "genre": "Puzzle",
+  "gamePlatform": "Web Browser",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "inLanguage": "en",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://games.example.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Memory Match",
+      "item": "https://games.example.com/games/memory/"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="logo" href="/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade Games Hub</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#games">All games</a></li>
+        
+      </ul>
+      <details class="lang-switch"><summary aria-label="Language / 语言">🌐 English</summary><ul><li><a href="/games/memory/" hreflang="en" lang="en" class="cur">English</a></li><li><a href="/zh/games/memory/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/memory/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/memory/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/memory/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/memory/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/memory/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
+    </nav>
+  </header>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li aria-current="page">Memory Match</li>
+    </ol>
+  </nav>
+
+  <main class="game-page">
+    <h1>🃏 Memory Match</h1>
+    <p class="game-sub">Flip two cards at a time — matching icons stay open. Clear all 8 pairs in as few moves as possible!</p>
+
+    <div class="game-layout">
+      <section class="stage" aria-label="Game area">
+        <div class="hud">
+          <div class="hud-item"><small>Moves</small><span id="moves">0</span></div><div class="hud-item"><small>Pairs</small><span id="pairs">0 / 8</span></div><div class="hud-item"><small>Time (s)</small><span id="time">0</span></div>
+        </div>
+        <div id="board" class="grid-board board-memory" role="grid" aria-label="Memory match cards"></div>
+        <div class="controls-row"><button class="btn btn-pink" id="btn-restart" type="button">Restart</button></div>
+        
+      </section>
+
+      <aside class="side-panel">
+        <section class="panel">
+          <h2>🎯 How to play</h2>
+          <ul>
+            <li>Click a card to flip it; at most two cards stay open at once.</li>
+            <li>Matching icons stay face up — pair found!</li>
+            <li>Different icons flip back over. Remember where they were!</li>
+            <li>Find all 8 pairs to win — fewer moves means a better score.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>💡 Pro tips</h2>
+          <ul>
+            <li>Flip in order and mentally number the positions.</li>
+            <li>When a new icon appears, recall if you have seen it before.</li>
+            <li>Exclude matched pairs to shrink what you need to remember.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>🕹️ More games</h2>
+          <ul class="more-games">
+            <li><a href="/games/snake/">🐍 Snake</a></li>
+            <li><a href="/games/2048/">🔢 2048</a></li>
+            <li><a href="/games/tetris/">🧱 Tetris</a></li>
+            <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+            <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>window.GAME_I18N = {"win": "🎉 All pairs found! {moves} moves · {time}s", "card": "Card {n}"};</script>
+  <script src="/assets/js/games/memory.js" defer></script>
+  <footer class="site-footer">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/games/snake/">🐍 Snake</a></li>
+      <li><a href="/games/2048/">🔢 2048</a></li>
+      <li><a href="/games/tetris/">🧱 Tetris</a></li>
+      <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+      <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+      <li><a href="/games/memory/">🃏 Memory Match</a></li>
+    </ul>
+    <p>© 2026 Arcade Games Hub · Free online games, play instantly</p>
+  </footer>
+</body>
+</html>

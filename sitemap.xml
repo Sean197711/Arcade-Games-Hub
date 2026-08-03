@@ -2,688 +2,688 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://games.example.com/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https:/games-hub.cc/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://games.example.com/zh/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://games.example.com/es/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ar/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ko/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://games.example.com/games/snake/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/games/snake/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/zh/games/snake/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/zh/games/snake/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/es/games/snake/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/es/games/snake/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ar/games/snake/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ar/games/snake/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ru/games/snake/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ru/games/snake/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ja/games/snake/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ja/games/snake/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ko/games/snake/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/snake/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ko/games/snake/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/games/2048/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/games/2048/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/zh/games/2048/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/zh/games/2048/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/es/games/2048/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/es/games/2048/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ar/games/2048/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ar/games/2048/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ru/games/2048/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ru/games/2048/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ja/games/2048/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ja/games/2048/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ko/games/2048/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/2048/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ko/games/2048/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/games/tetris/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/games/tetris/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/zh/games/tetris/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/zh/games/tetris/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/es/games/tetris/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/es/games/tetris/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ar/games/tetris/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ar/games/tetris/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ru/games/tetris/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ru/games/tetris/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ja/games/tetris/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ja/games/tetris/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ko/games/tetris/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/tetris/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ko/games/tetris/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/games/minesweeper/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/games/minesweeper/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/zh/games/minesweeper/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/zh/games/minesweeper/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/es/games/minesweeper/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/es/games/minesweeper/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ar/games/minesweeper/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ar/games/minesweeper/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ru/games/minesweeper/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ru/games/minesweeper/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ja/games/minesweeper/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ja/games/minesweeper/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ko/games/minesweeper/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/minesweeper/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ko/games/minesweeper/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/games/gomoku/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/games/gomoku/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/zh/games/gomoku/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/zh/games/gomoku/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/es/games/gomoku/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/es/games/gomoku/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ar/games/gomoku/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ar/games/gomoku/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ru/games/gomoku/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ru/games/gomoku/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ja/games/gomoku/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ja/games/gomoku/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ko/games/gomoku/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/gomoku/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ko/games/gomoku/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/games/memory/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/games/memory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/zh/games/memory/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/zh/games/memory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/es/games/memory/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/es/games/memory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ar/games/memory/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ar/games/memory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ru/games/memory/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ru/games/memory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ja/games/memory/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ja/games/memory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://games.example.com/ko/games/memory/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://games.example.com/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games.example.com/zh/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://games.example.com/es/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://games.example.com/ar/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://games.example.com/ru/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://games.example.com/ja/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://games.example.com/ko/games/memory/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://games.example.com/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://games-hub.cc/ko/games/memory/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

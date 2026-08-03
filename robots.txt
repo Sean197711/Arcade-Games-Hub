@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://games.example.com/sitemap.xml
+Sitemap: https://ggames-hub.cc/sitemap.xml

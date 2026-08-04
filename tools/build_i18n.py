@@ -8,7 +8,7 @@
 import json
 import os
 
-BASE = "https://games.example.com"
+BASE = "https://games-hub.cc"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LASTMOD = "2026-07-26"
 

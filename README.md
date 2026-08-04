@@ -46,11 +46,11 @@ All game UI text, instructions, tips and in-game messages are fully translated. 
 
 Pure static files. Upload the whole folder to any static host (Vercel, Cloudflare Pages, GitHub Pages, Netlify, OSS...). No build command needed.
 
-**Before deploying:** replace the placeholder domain `games.example.com` with your real domain:
+**Before deploying:** replace the placeholder domain `games-hub.cc` with your real domain:
 
 ```bash
-grep -rl "games.example.com" . | xargs sed -i "s|games.example.com|your-domain.com|g"
-sed -i "s|games.example.com|your-domain.com|g" tools/build_i18n.py
+grep -rl "games-hub.cc" . | xargs sed -i "s|games-hub.cc|your-domain.com|g"
+sed -i "s|games-hub.cc|your-domain.com|g" tools/build_i18n.py
 ```
 
 ## Regenerate pages

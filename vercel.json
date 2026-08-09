@@ -1,16 +1,38 @@
 {
-  "headers": [
-    {
-      "source": "/(.*\\.xml)",
-      "headers": [
-        { "key": "Content-Type", "value": "application/xml; charset=utf-8" }
-      ]
-    }
-  ],
   "redirects": [
     { "source": "/en", "destination": "/", "permanent": true },
     { "source": "/en/", "destination": "/", "permanent": true },
     { "source": "/en/games/:slug/", "destination": "/games/:slug/", "permanent": true },
     { "source": "/en/games/:slug", "destination": "/games/:slug/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" },
+        { "key": "X-Robots-Tag", "value": "noindex" }
+      ]
+    },
+    {
+      "source": "/sitemap.xsl",
+      "headers": [
+        { "key": "Content-Type", "value": "text/xsl; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000, immutable" }
+      ]
+    }
   ]
 }

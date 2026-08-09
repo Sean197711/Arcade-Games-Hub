@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
@@ -11,7 +12,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -25,7 +26,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -39,7 +40,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -53,7 +54,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -67,7 +68,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -81,7 +82,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -95,7 +96,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -109,7 +110,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -123,7 +124,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -137,7 +138,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -151,7 +152,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -165,7 +166,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -179,7 +180,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -193,7 +194,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -207,7 +208,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -221,7 +222,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -235,7 +236,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -249,7 +250,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -263,7 +264,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -277,7 +278,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -291,7 +292,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -305,7 +306,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -319,7 +320,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -333,7 +334,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -347,7 +348,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -361,7 +362,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -375,7 +376,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -389,7 +390,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -403,7 +404,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -417,7 +418,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -431,7 +432,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -445,7 +446,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -459,7 +460,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -473,7 +474,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -487,7 +488,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -501,7 +502,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -515,7 +516,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -529,7 +530,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -543,7 +544,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -557,7 +558,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -571,7 +572,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -585,7 +586,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -599,7 +600,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -613,7 +614,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -627,7 +628,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -641,7 +642,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -655,7 +656,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -669,7 +670,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -683,7 +684,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

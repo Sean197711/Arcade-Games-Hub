@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Snake Online - Play Free Classic Snake Game | Arcade Games Hub</title>
-  <meta name="description" content="Guide the snake to eat and grow longer. Don't hit the walls or yourself — chase the high score!" />
-  <meta name="keywords" content="snake,snake online,snake game,classic snake,free snake game" />
+  <title>Play Snake Online - Free Classic Snake Game | Arcade Games Hub</title>
+  <meta name="description" content="Guide the snake to eat and grow — don't hit the wall or yourself. Chase your high score!" />
+  <meta name="keywords" content="snake,snake online,play snake,classic snake,free snake game" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/games/snake/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Arcade Games Hub" />
-  <meta property="og:title" content="Snake Online - Play Free Classic Snake Game | Arcade Games Hub" />
-  <meta property="og:description" content="Guide the snake to eat and grow longer. Don't hit the walls or yourself — chase the high score!" />
+  <meta property="og:title" content="Play Snake Online - Free Classic Snake Game | Arcade Games Hub" />
+  <meta property="og:description" content="Guide the snake to eat and grow — don't hit the wall or yourself. Chase your high score!" />
   <meta property="og:url" content="https://games-hub.cc/games/snake/" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Snake Online - Play Free Classic Snake Game | Arcade Games Hub" />
-  <meta name="twitter:description" content="Guide the snake to eat and grow longer. Don't hit the walls or yourself — chase the high score!" />
+  <meta name="twitter:title" content="Play Snake Online - Free Classic Snake Game | Arcade Games Hub" />
+  <meta name="twitter:description" content="Guide the snake to eat and grow — don't hit the wall or yourself. Chase your high score!" />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "Snake",
   "url": "https://games-hub.cc/games/snake/",
-  "description": "Guide the snake to eat and grow longer. Don't hit the walls or yourself — chase the high score!",
+  "description": "Guide the snake to eat and grow — don't hit the wall or yourself. Chase your high score!",
   "genre": "Arcade",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade Games Hub</a>
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
-        <li><a href="/#games">All games</a></li>
-        
+        <li><a href="/#games" aria-current="page">All Games</a></li>
+        <li><a href="/categories/">Categories</a></li>
+        <li><a href="/new-games/">New Games</a></li>
+        <li><a href="/popular-games/">Popular Games</a></li>
+        <li><a href="/about/">About Us</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 English</summary><ul><li><a href="/games/snake/" hreflang="en" lang="en" class="cur">English</a></li><li><a href="/zh/games/snake/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/snake/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/snake/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/snake/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/snake/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/snake/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,14 +99,14 @@
 
   <main class="game-page">
     <h1>🐍 Snake</h1>
-    <p class="game-sub">The arcade classic: eat food to grow longer — hit a wall or your own tail and it's over. The higher your score, the faster it gets!</p>
+    <p class="game-sub">Eat food to grow longer; hitting a wall or yourself ends the game. Faster as you score!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Game area">
         <div class="hud">
           <div class="hud-item"><small>Score</small><span id="score">0</span></div><div class="hud-item"><small>Best</small><span id="best">0</span></div>
         </div>
-        <canvas id="game-canvas" width="400" height="400" role="img" aria-label="Snake game board"></canvas>
+        <canvas id="game-canvas" width="400" height="400" role="img" aria-label="Snake game canvas"></canvas>
         <div class="controls-row"><button class="btn btn-green" id="btn-start" type="button">Start</button><button class="btn btn-cyan" id="btn-pause" type="button">Pause</button><button class="btn btn-pink" id="btn-restart" type="button">Restart</button></div>
         <div class="pad" aria-label="Touch controls">
           <span></span><button type="button" data-dir="up" aria-label="Up">▲</button><span></span>
@@ -119,19 +120,19 @@
         <section class="panel">
           <h2>🎯 How to play</h2>
           <ul>
-            <li>Desktop: steer with <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> or <kbd>WASD</kbd>, <kbd>Space</kbd> to pause/resume.</li>
-            <li>Mobile: tap the arrow buttons below the screen.</li>
-            <li>Each food is worth 10 points and grows the snake by one segment.</li>
+            <li>Desktop: arrows or <kbd>WASD</kbd> to steer, <kbd>Space</kbd> to pause.</li>
+            <li>Mobile: use the on-screen direction pad.</li>
+            <li>Each food gives 10 points and grows the snake by one.</li>
             <li>Hitting a wall or your own body ends the game.</li>
-            <li>The snake speeds up as your score grows; your best score is saved on this device.</li>
+            <li>Higher score means faster speed; best score is saved locally.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Pro tips</h2>
           <ul>
-            <li>Stay near the edges to keep room to maneuver.</li>
-            <li>Once the snake grows long, avoid dead ends.</li>
-            <li>Plan your turns early — don't swerve right at the food.</li>
+            <li>Stick to the edges to keep room to turn.</li>
+            <li>Avoid dead ends once the snake is long.</li>
+            <li>Plan turns early, before you reach the food.</li>
           </ul>
         </section>
         <section class="panel">
@@ -153,15 +154,34 @@
   <script>window.GAME_I18N = {"gameOver": "Game over! Score: {score}", "paused": "Paused"};</script>
   <script src="/assets/js/games/snake.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/games/snake/">🐍 Snake</a></li>
-      <li><a href="/games/2048/">🔢 2048</a></li>
-      <li><a href="/games/tetris/">🧱 Tetris</a></li>
-      <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
-      <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
-      <li><a href="/games/memory/">🃏 Memory Match</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Arcade Games Hub</h3>
+        <ul class="footer-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/categories/">Categories</a></li>
+          <li><a href="/new-games/">New Games</a></li>
+          <li><a href="/popular-games/">Popular Games</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/cookie/">Cookie Policy</a></li>
+          <li><a href="/dmca/">DMCA / Copyright</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>All Games</h3>
+        <ul class="footer-links">
+          <li><a href="/games/snake/">🐍 Snake</a></li>
+          <li><a href="/games/2048/">🔢 2048</a></li>
+          <li><a href="/games/tetris/">🧱 Tetris</a></li>
+          <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+          <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+          <li><a href="/games/memory/">🃏 Memory Match</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Arcade Games Hub · Free online games, play instantly</p>
   </footer>
 </body>

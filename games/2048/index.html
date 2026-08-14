@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2048 Online - Play Free Number Puzzle Game | Arcade Games Hub</title>
-  <meta name="description" content="Slide and merge matching numbers from 2 all the way to 2048. Simple rules, endless strategy." />
+  <title>Play 2048 Online - Free Number Puzzle Game | Arcade Games Hub</title>
+  <meta name="description" content="Slide to merge equal tiles and build up to 2048. Simple rules, endless strategy." />
   <meta name="keywords" content="2048,2048 online,2048 game,number puzzle,puzzle game,free 2048" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/games/2048/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Arcade Games Hub" />
-  <meta property="og:title" content="2048 Online - Play Free Number Puzzle Game | Arcade Games Hub" />
-  <meta property="og:description" content="Slide and merge matching numbers from 2 all the way to 2048. Simple rules, endless strategy." />
+  <meta property="og:title" content="Play 2048 Online - Free Number Puzzle Game | Arcade Games Hub" />
+  <meta property="og:description" content="Slide to merge equal tiles and build up to 2048. Simple rules, endless strategy." />
   <meta property="og:url" content="https://games-hub.cc/games/2048/" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2048 Online - Play Free Number Puzzle Game | Arcade Games Hub" />
-  <meta name="twitter:description" content="Slide and merge matching numbers from 2 all the way to 2048. Simple rules, endless strategy." />
+  <meta name="twitter:title" content="Play 2048 Online - Free Number Puzzle Game | Arcade Games Hub" />
+  <meta name="twitter:description" content="Slide to merge equal tiles and build up to 2048. Simple rules, endless strategy." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "2048",
   "url": "https://games-hub.cc/games/2048/",
-  "description": "Slide and merge matching numbers from 2 all the way to 2048. Simple rules, endless strategy.",
+  "description": "Slide to merge equal tiles and build up to 2048. Simple rules, endless strategy.",
   "genre": "Puzzle",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade Games Hub</a>
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
-        <li><a href="/#games">All games</a></li>
-        
+        <li><a href="/#games" aria-current="page">All Games</a></li>
+        <li><a href="/categories/">Categories</a></li>
+        <li><a href="/new-games/">New Games</a></li>
+        <li><a href="/popular-games/">Popular Games</a></li>
+        <li><a href="/about/">About Us</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 English</summary><ul><li><a href="/games/2048/" hreflang="en" lang="en" class="cur">English</a></li><li><a href="/zh/games/2048/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/2048/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/2048/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/2048/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/2048/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/2048/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,7 +99,7 @@
 
   <main class="game-page">
     <h1>🔢 2048</h1>
-    <p class="game-sub">Slide the tiles, merge matching numbers and build your way from 2 to 2048!</p>
+    <p class="game-sub">Slide tiles, merge equal numbers, and climb from 2 all the way to 2048!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Game area">
@@ -114,19 +115,19 @@
         <section class="panel">
           <h2>🎯 How to play</h2>
           <ul>
-            <li>Desktop: use <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> or <kbd>WASD</kbd> to slide all tiles.</li>
-            <li>Mobile: swipe up, down, left or right on the board.</li>
-            <li>Tiles with the same number merge into their sum when they collide.</li>
-            <li>A new 2 or 4 appears after every move.</li>
-            <li>Reach 2048 to win; the game ends when no moves remain.</li>
+            <li>Desktop: <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> or <kbd>WASD</kbd> to slide.</li>
+            <li>Mobile: swipe up/down/left/right on the board.</li>
+            <li>Equal tiles merge into their sum when they collide.</li>
+            <li>A new 2 or 4 appears after each move.</li>
+            <li>Reach 2048 to win; no moves left means game over.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Pro tips</h2>
           <ul>
-            <li>Keep your biggest tile in one corner and avoid moving it.</li>
-            <li>Try to slide in only two directions to keep the board tidy.</li>
-            <li>Arrange big numbers in a descending snake pattern for efficient merges.</li>
+            <li>Keep the largest tile pinned in a corner.</li>
+            <li>Slide along only two directions to stay ordered.</li>
+            <li>Arrange big tiles in a snake pattern for fast merges.</li>
           </ul>
         </section>
         <section class="panel">
@@ -148,15 +149,34 @@
   <script>window.GAME_I18N = {"win": "🎉 You made 2048! Keep going for a higher score", "gameOver": "Game over! Score: {score}", "newGame": "New game started!"};</script>
   <script src="/assets/js/games/g2048.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/games/snake/">🐍 Snake</a></li>
-      <li><a href="/games/2048/">🔢 2048</a></li>
-      <li><a href="/games/tetris/">🧱 Tetris</a></li>
-      <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
-      <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
-      <li><a href="/games/memory/">🃏 Memory Match</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Arcade Games Hub</h3>
+        <ul class="footer-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/categories/">Categories</a></li>
+          <li><a href="/new-games/">New Games</a></li>
+          <li><a href="/popular-games/">Popular Games</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/cookie/">Cookie Policy</a></li>
+          <li><a href="/dmca/">DMCA / Copyright</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>All Games</h3>
+        <ul class="footer-links">
+          <li><a href="/games/snake/">🐍 Snake</a></li>
+          <li><a href="/games/2048/">🔢 2048</a></li>
+          <li><a href="/games/tetris/">🧱 Tetris</a></li>
+          <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+          <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+          <li><a href="/games/memory/">🃏 Memory Match</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Arcade Games Hub · Free online games, play instantly</p>
   </footer>
 </body>

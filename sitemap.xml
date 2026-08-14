@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
@@ -12,7 +12,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -26,7 +26,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -40,7 +40,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -54,7 +54,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -68,7 +68,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -82,7 +82,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -96,9 +96,891 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/categories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/categories/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/categories/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/categories/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/categories/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/categories/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/categories/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/categories/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/categories/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/categories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/categories/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/categories/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/categories/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/categories/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/categories/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/categories/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/categories/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/categories/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/categories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/categories/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/categories/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/categories/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/categories/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/categories/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/categories/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/categories/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/categories/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/categories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/categories/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/categories/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/categories/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/categories/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/categories/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/categories/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/categories/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/categories/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/categories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/categories/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/categories/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/categories/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/categories/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/categories/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/categories/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/categories/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/categories/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/categories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/categories/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/categories/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/categories/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/categories/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/categories/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/categories/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/categories/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/categories/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/categories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/categories/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/categories/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/categories/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/categories/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/categories/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/categories/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/categories/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/categories/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/new-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/new-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/new-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/new-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/new-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/new-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/new-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/new-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/new-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/new-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/new-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/new-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/new-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/new-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/new-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/new-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/new-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/new-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/new-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/new-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/new-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/new-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/new-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/new-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/new-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/new-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/new-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/new-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/new-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/new-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/new-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/new-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/new-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/new-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/new-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/new-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/popular-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/popular-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/popular-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/popular-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/popular-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/popular-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/popular-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/popular-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/popular-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/popular-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/popular-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/popular-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/popular-games/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/popular-games/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/popular-games/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/about/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/about/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/about/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/about/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/about/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/about/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/about/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/contact/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/contact/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/contact/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/contact/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/contact/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/contact/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/contact/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/privacy/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/privacy/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/privacy/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/privacy/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/privacy/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/privacy/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/privacy/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/terms/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/terms/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/terms/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/terms/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/terms/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/terms/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/terms/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/cookie/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/cookie/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/cookie/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/cookie/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/cookie/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/cookie/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/cookie/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/cookie/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/cookie/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/cookie/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/cookie/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/cookie/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/cookie/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/cookie/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/cookie/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/cookie/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/cookie/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/cookie/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/cookie/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/cookie/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/cookie/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/cookie/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/cookie/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/cookie/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/cookie/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/cookie/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/cookie/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/cookie/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/cookie/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/cookie/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/cookie/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/cookie/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/cookie/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/cookie/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/cookie/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/cookie/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/dmca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/dmca/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/dmca/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/dmca/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/dmca/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/zh/dmca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/dmca/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/dmca/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/dmca/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/dmca/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/es/dmca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/dmca/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/dmca/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/dmca/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/dmca/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ar/dmca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/dmca/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/dmca/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/dmca/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/dmca/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ru/dmca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/dmca/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/dmca/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/dmca/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/dmca/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ja/dmca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/dmca/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/dmca/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/dmca/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/dmca/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://games-hub.cc/ko/dmca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://games-hub.cc/dmca/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/dmca/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://games-hub.cc/es/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/dmca/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/dmca/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/dmca/" />
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://games-hub.cc/games/snake/</loc>
@@ -110,7 +992,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -124,7 +1006,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -138,7 +1020,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -152,7 +1034,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -166,7 +1048,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -180,7 +1062,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -194,7 +1076,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/snake/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/snake/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/snake/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -208,7 +1090,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -222,7 +1104,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -236,7 +1118,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -250,7 +1132,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -264,7 +1146,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -278,7 +1160,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -292,7 +1174,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/2048/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/2048/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/2048/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -306,7 +1188,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -320,7 +1202,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -334,7 +1216,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -348,7 +1230,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -362,7 +1244,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -376,7 +1258,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -390,7 +1272,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/tetris/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/tetris/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -404,7 +1286,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -418,7 +1300,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -432,7 +1314,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -446,7 +1328,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -460,7 +1342,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -474,7 +1356,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -488,7 +1370,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/minesweeper/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/minesweeper/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -502,7 +1384,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -516,7 +1398,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -530,7 +1412,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -544,7 +1426,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -558,7 +1440,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -572,7 +1454,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -586,7 +1468,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/gomoku/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/gomoku/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -600,7 +1482,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -614,7 +1496,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -628,7 +1510,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -642,7 +1524,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -656,7 +1538,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -670,7 +1552,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -684,7 +1566,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/memory/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/memory/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/memory/" />
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

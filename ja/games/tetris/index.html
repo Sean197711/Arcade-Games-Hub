@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>テトリス - 無料オンライン | ミニゲームランド</title>
-  <meta name="description" content="回転・移動してラインを消す、不朽の落ちものパズル。" />
-  <meta name="keywords" content="テトリス,テトリス無料,落ちものパズル,ブロックゲーム,オンライン" />
+  <title>テトリスを無料で遊ぶ | ミニゲームランド</title>
+  <meta name="description" content="回して積んで列を消そう。永遠の名作。" />
+  <meta name="keywords" content="テトリス,テトリス オンライン,ブロック" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/ja/games/tetris/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="ミニゲームランド" />
-  <meta property="og:title" content="テトリス - 無料オンライン | ミニゲームランド" />
-  <meta property="og:description" content="回転・移動してラインを消す、不朽の落ちものパズル。" />
+  <meta property="og:title" content="テトリスを無料で遊ぶ | ミニゲームランド" />
+  <meta property="og:description" content="回して積んで列を消そう。永遠の名作。" />
   <meta property="og:url" content="https://games-hub.cc/ja/games/tetris/" />
   <meta property="og:locale" content="ja_JP" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="テトリス - 無料オンライン | ミニゲームランド" />
-  <meta name="twitter:description" content="回転・移動してラインを消す、不朽の落ちものパズル。" />
+  <meta name="twitter:title" content="テトリスを無料で遊ぶ | ミニゲームランド" />
+  <meta name="twitter:description" content="回して積んで列を消そう。永遠の名作。" />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "テトリス",
   "url": "https://games-hub.cc/ja/games/tetris/",
-  "description": "回転・移動してラインを消す、不朽の落ちものパズル。",
+  "description": "回して積んで列を消そう。永遠の名作。",
   "genre": "アーケード",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/ja/"><span class="logo-icon" aria-hidden="true">🕹️</span>ミニゲームランド</a>
       <ul class="nav-links">
         <li><a href="/ja/">ホーム</a></li>
-        <li><a href="/ja/#games">ゲーム一覧</a></li>
-        
+        <li><a href="/ja/#games" aria-current="page">ゲーム一覧</a></li>
+        <li><a href="/ja/categories/">カテゴリ</a></li>
+        <li><a href="/ja/new-games/">新着ゲーム</a></li>
+        <li><a href="/ja/popular-games/">人気ゲーム</a></li>
+        <li><a href="/ja/about/">運営者情報</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 日本語</summary><ul><li><a href="/games/tetris/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/tetris/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/tetris/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/tetris/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/tetris/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/tetris/" hreflang="ja" lang="ja" class="cur">日本語</a></li><li><a href="/ko/games/tetris/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,7 +99,7 @@
 
   <main class="game-page">
     <h1>🧱 テトリス</h1>
-    <p class="game-sub">落ちてくるブロックを回転・移動して積もう。段がそろうと消え、10段ごとにレベルアップ！</p>
+    <p class="game-sub">列を埋めると消える。10列ごとにレベルアップ!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="ゲームエリア">
@@ -106,7 +107,7 @@
           <div class="hud-item"><small>スコア</small><span id="score">0</span></div><div class="hud-item"><small>消去ライン</small><span id="lines">0</span></div><div class="hud-item"><small>レベル</small><span id="level">1</span></div>
         </div>
         <div style="display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;justify-content:center;">
-          <canvas id="game-canvas" width="240" height="480" role="img" aria-label="テトリスの盤面"></canvas>
+          <canvas id="game-canvas" width="240" height="480" role="img" aria-label="テトリス盤"></canvas>
           <div style="display:flex;flex-direction:column;gap:8px;align-items:center;">
             <strong>次</strong>
             <canvas id="next-canvas" width="96" height="84" style="background:#141428;border:3px solid var(--ink);border-radius:12px;" role="img" aria-label="次"></canvas>
@@ -126,18 +127,18 @@
         <section class="panel">
           <h2>🎯 遊び方</h2>
           <ul>
-            <li><kbd>←</kbd><kbd>→</kbd> で移動、<kbd>↓</kbd> で高速落下。</li>
-            <li><kbd>↑</kbd> または <kbd>W</kbd> で回転、<kbd>スペース</kbd> で即落下。</li>
-            <li>一段そろえると消去。複数段同時消しで高得点。</li>
-            <li>ブロックが上まで積み上がるとゲームオーバー。</li>
+            <li><kbd>←</kbd><kbd>→</kbd> 移動, <kbd>↓</kbd> 軟着陸。</li>
+            <li><kbd>↑</kbd>/<kbd>W</kbd> 回転, <kbd>空格</kbd> 即落下。</li>
+            <li>列を消す。</li>
+            <li>上端で終了。</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 上達のコツ</h2>
           <ul>
-            <li>1列の井戸を残してIミノで4段消しを狙おう。</li>
-            <li>表面を平らに保ち、穴を作らない。</li>
-            <li>レベルが上がったら次のミノの置き場を先に決めよう。</li>
+            <li>I用の井戸を空ける。</li>
+            <li>表面を平らに。</li>
+            <li>次を考えろ。</li>
           </ul>
         </section>
         <section class="panel">
@@ -159,15 +160,34 @@
   <script>window.GAME_I18N = {"gameOver": "ゲームオーバー！スコア {score}", "paused": "一時停止中"};</script>
   <script src="/assets/js/games/tetris.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/ja/">ホーム</a></li>
-      <li><a href="/ja/games/snake/">🐍 スネーク</a></li>
-      <li><a href="/ja/games/2048/">🔢 2048</a></li>
-      <li><a href="/ja/games/tetris/">🧱 テトリス</a></li>
-      <li><a href="/ja/games/minesweeper/">💣 マインスイーパー</a></li>
-      <li><a href="/ja/games/gomoku/">⚫ 五目並べ</a></li>
-      <li><a href="/ja/games/memory/">🃏 神経衰弱</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>ミニゲームランド</h3>
+        <ul class="footer-links">
+          <li><a href="/ja/">ホーム</a></li>
+          <li><a href="/ja/categories/">カテゴリ</a></li>
+          <li><a href="/ja/new-games/">新着ゲーム</a></li>
+          <li><a href="/ja/popular-games/">人気ゲーム</a></li>
+          <li><a href="/ja/about/">運営者情報</a></li>
+          <li><a href="/ja/contact/">お問い合わせ</a></li>
+          <li><a href="/ja/privacy/">プライバシーポリシー</a></li>
+          <li><a href="/ja/terms/">利用規約</a></li>
+          <li><a href="/ja/cookie/">Cookie ポリシー</a></li>
+          <li><a href="/ja/dmca/">DMCA / 著作権</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>ゲーム一覧</h3>
+        <ul class="footer-links">
+          <li><a href="/ja/games/snake/">🐍 スネーク</a></li>
+          <li><a href="/ja/games/2048/">🔢 2048</a></li>
+          <li><a href="/ja/games/tetris/">🧱 テトリス</a></li>
+          <li><a href="/ja/games/minesweeper/">💣 マインスイーパー</a></li>
+          <li><a href="/ja/games/gomoku/">⚫ 五目並べ</a></li>
+          <li><a href="/ja/games/memory/">🃏 神経衰弱</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 ミニゲームランド · 無料オンラインゲーム、すぐに遊べる</p>
   </footer>
 </body>

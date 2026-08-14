@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>لعبة 2048 أونلاين - لغز الأرقام المجاني | ألعاب الأركيد</title>
-  <meta name="description" content="حرّك المربعات وادمج الأرقام المتشابهة من 2 حتى 2048. قواعد بسيطة واستراتيجية لا تنتهي." />
-  <meta name="keywords" content="2048,لعبة 2048,2048 أونلاين,لغز الأرقام,لعبة مجانية" />
+  <title>العب 2048 أونلاين - لغز مجاني | ألعاب الأركيد</title>
+  <meta name="description" content="اسحب لدمج المربعات المتساوية حتى 2048." />
+  <meta name="keywords" content="2048,2048 أونلاين,لغز أرقام" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/ar/games/2048/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="ألعاب الأركيد" />
-  <meta property="og:title" content="لعبة 2048 أونلاين - لغز الأرقام المجاني | ألعاب الأركيد" />
-  <meta property="og:description" content="حرّك المربعات وادمج الأرقام المتشابهة من 2 حتى 2048. قواعد بسيطة واستراتيجية لا تنتهي." />
+  <meta property="og:title" content="العب 2048 أونلاين - لغز مجاني | ألعاب الأركيد" />
+  <meta property="og:description" content="اسحب لدمج المربعات المتساوية حتى 2048." />
   <meta property="og:url" content="https://games-hub.cc/ar/games/2048/" />
   <meta property="og:locale" content="ar_AR" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="لعبة 2048 أونلاين - لغز الأرقام المجاني | ألعاب الأركيد" />
-  <meta name="twitter:description" content="حرّك المربعات وادمج الأرقام المتشابهة من 2 حتى 2048. قواعد بسيطة واستراتيجية لا تنتهي." />
+  <meta name="twitter:title" content="العب 2048 أونلاين - لغز مجاني | ألعاب الأركيد" />
+  <meta name="twitter:description" content="اسحب لدمج المربعات المتساوية حتى 2048." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "2048",
   "url": "https://games-hub.cc/ar/games/2048/",
-  "description": "حرّك المربعات وادمج الأرقام المتشابهة من 2 حتى 2048. قواعد بسيطة واستراتيجية لا تنتهي.",
+  "description": "اسحب لدمج المربعات المتساوية حتى 2048.",
   "genre": "ألغاز",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/ar/"><span class="logo-icon" aria-hidden="true">🕹️</span>ألعاب الأركيد</a>
       <ul class="nav-links">
         <li><a href="/ar/">الرئيسية</a></li>
-        <li><a href="/ar/#games">كل الألعاب</a></li>
-        
+        <li><a href="/ar/#games" aria-current="page">كل الألعاب</a></li>
+        <li><a href="/ar/categories/">الفئات</a></li>
+        <li><a href="/ar/new-games/">ألعاب جديدة</a></li>
+        <li><a href="/ar/popular-games/">ألعاب رائجة</a></li>
+        <li><a href="/ar/about/">من نحن</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 العربية</summary><ul><li><a href="/games/2048/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/2048/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/2048/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/2048/" hreflang="ar" lang="ar" class="cur">العربية</a></li><li><a href="/ru/games/2048/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/2048/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/2048/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,14 +99,14 @@
 
   <main class="game-page">
     <h1>🔢 2048</h1>
-    <p class="game-sub">حرّك المربعات وادمج الأرقام المتطابقة لتصنع 2048!</p>
+    <p class="game-sub">ادمج الأرقام المتساوية واصعد من 2 إلى 2048.</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="منطقة اللعب">
         <div class="hud">
           <div class="hud-item"><small>النقاط</small><span id="score">0</span></div><div class="hud-item"><small>الأفضل</small><span id="best">0</span></div>
         </div>
-        <div id="board" class="grid-board board-2048" role="grid" aria-label="لوحة لعبة 2048"></div>
+        <div id="board" class="grid-board board-2048" role="grid" aria-label="لوحة 2048"></div>
         <div class="controls-row"><button class="btn btn-pink" id="btn-restart" type="button">إعادة</button></div>
         
       </section>
@@ -114,19 +115,19 @@
         <section class="panel">
           <h2>🎯 طريقة اللعب</h2>
           <ul>
-            <li>على الحاسوب: استخدم الأسهم <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> أو <kbd>WASD</kbd> لتحريك كل المربعات.</li>
-            <li>على الجوال: اسحب بإصبعك على اللوحة بأي اتجاه.</li>
-            <li>المربعات المتطابقة تندمج عند اصطدامها لتصبح مجموعهما.</li>
-            <li>بعد كل حركة يظهر رقم 2 أو 4 جديد.</li>
-            <li>اصنع 2048 لتفوز؛ وتنتهي اللعبة عندما لا تبقى حركات ممكنة.</li>
+            <li>الحاسوب: <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd>.</li>
+            <li>الجوال: اسحب على اللوحة.</li>
+            <li>المتساوية تندمج.</li>
+            <li>يظهر 2 أو 4 بعد كل حركة.</li>
+            <li>اصل 2048 لتفوز.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 نصائح</h2>
           <ul>
-            <li>ثبّت أكبر رقم في زاوية واحدة وتجنّب تحريكه.</li>
-            <li>حاول التحريك في اتجاهين فقط للحفاظ على ترتيب اللوحة.</li>
-            <li>رتّب الأرقام الكبيرة تنازليًا بشكل متعرج لتسهيل الدمج.</li>
+            <li>ثبّت الأكبر في زاوية.</li>
+            <li>سر باتجاهين.</li>
+            <li>رتّب بشكل متعرج.</li>
           </ul>
         </section>
         <section class="panel">
@@ -136,7 +137,7 @@
             <li><a href="/ar/games/tetris/">🧱 تتريس</a></li>
             <li><a href="/ar/games/minesweeper/">💣 كانسة الألغام</a></li>
             <li><a href="/ar/games/gomoku/">⚫ غوموكو</a></li>
-            <li><a href="/ar/games/memory/">🃏 لعبة الذاكرة</a></li>
+            <li><a href="/ar/games/memory/">🃏 الذاكرة</a></li>
           </ul>
         </section>
       </aside>
@@ -148,15 +149,34 @@
   <script>window.GAME_I18N = {"win": "🎉 صنعت 2048! واصل لتحقيق نقاط أعلى", "gameOver": "انتهت اللعبة! النقاط: {score}", "newGame": "بدأت جولة جديدة!"};</script>
   <script src="/assets/js/games/g2048.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/ar/">الرئيسية</a></li>
-      <li><a href="/ar/games/snake/">🐍 الثعبان</a></li>
-      <li><a href="/ar/games/2048/">🔢 2048</a></li>
-      <li><a href="/ar/games/tetris/">🧱 تتريس</a></li>
-      <li><a href="/ar/games/minesweeper/">💣 كانسة الألغام</a></li>
-      <li><a href="/ar/games/gomoku/">⚫ غوموكو</a></li>
-      <li><a href="/ar/games/memory/">🃏 لعبة الذاكرة</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>ألعاب الأركيد</h3>
+        <ul class="footer-links">
+          <li><a href="/ar/">الرئيسية</a></li>
+          <li><a href="/ar/categories/">الفئات</a></li>
+          <li><a href="/ar/new-games/">ألعاب جديدة</a></li>
+          <li><a href="/ar/popular-games/">ألعاب رائجة</a></li>
+          <li><a href="/ar/about/">من نحن</a></li>
+          <li><a href="/ar/contact/">اتصل بنا</a></li>
+          <li><a href="/ar/privacy/">سياسة الخصوصية</a></li>
+          <li><a href="/ar/terms/">شروط الخدمة</a></li>
+          <li><a href="/ar/cookie/">سياسة ملفات الارتباط</a></li>
+          <li><a href="/ar/dmca/">DMCA / حقوق النشر</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>كل الألعاب</h3>
+        <ul class="footer-links">
+          <li><a href="/ar/games/snake/">🐍 الثعبان</a></li>
+          <li><a href="/ar/games/2048/">🔢 2048</a></li>
+          <li><a href="/ar/games/tetris/">🧱 تتريس</a></li>
+          <li><a href="/ar/games/minesweeper/">💣 كانسة الألغام</a></li>
+          <li><a href="/ar/games/gomoku/">⚫ غوموكو</a></li>
+          <li><a href="/ar/games/memory/">🃏 الذاكرة</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 ألعاب الأركيد · ألعاب مجانية عبر الإنترنت، العب فورًا</p>
   </footer>
 </body>

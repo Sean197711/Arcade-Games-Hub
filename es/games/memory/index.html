@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Juego de memoria online - Entrena tu memoria gratis | Arcade de Minijuegos</title>
-  <meta name="description" content="Voltea las cartas, recuerda los dibujos y encuentra todas las parejas para entrenar tu memoria." />
-  <meta name="keywords" content="juego de memoria,memoria online,parejas,voltea cartas,entrenar memoria,juego gratis" />
+  <title>Juega Memoria en línea - Gratis | Arcade de Minijuegos</title>
+  <meta name="description" content="Voltea cartas y encuentra las parejas. Entrena la memoria." />
+  <meta name="keywords" content="memoria,juego memoria,emparejar" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/es/games/memory/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/memory/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Arcade de Minijuegos" />
-  <meta property="og:title" content="Juego de memoria online - Entrena tu memoria gratis | Arcade de Minijuegos" />
-  <meta property="og:description" content="Voltea las cartas, recuerda los dibujos y encuentra todas las parejas para entrenar tu memoria." />
+  <meta property="og:title" content="Juega Memoria en línea - Gratis | Arcade de Minijuegos" />
+  <meta property="og:description" content="Voltea cartas y encuentra las parejas. Entrena la memoria." />
   <meta property="og:url" content="https://games-hub.cc/es/games/memory/" />
   <meta property="og:locale" content="es_ES" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Juego de memoria online - Entrena tu memoria gratis | Arcade de Minijuegos" />
-  <meta name="twitter:description" content="Voltea las cartas, recuerda los dibujos y encuentra todas las parejas para entrenar tu memoria." />
+  <meta name="twitter:title" content="Juega Memoria en línea - Gratis | Arcade de Minijuegos" />
+  <meta name="twitter:description" content="Voltea cartas y encuentra las parejas. Entrena la memoria." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "Memoria",
   "url": "https://games-hub.cc/es/games/memory/",
-  "description": "Voltea las cartas, recuerda los dibujos y encuentra todas las parejas para entrenar tu memoria.",
+  "description": "Voltea cartas y encuentra las parejas. Entrena la memoria.",
   "genre": "Puzle",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/es/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade de Minijuegos</a>
       <ul class="nav-links">
         <li><a href="/es/">Inicio</a></li>
-        <li><a href="/es/#games">Todos los juegos</a></li>
-        
+        <li><a href="/es/#games" aria-current="page">Todos los juegos</a></li>
+        <li><a href="/es/categories/">Categorías</a></li>
+        <li><a href="/es/new-games/">Nuevos juegos</a></li>
+        <li><a href="/es/popular-games/">Juegos populares</a></li>
+        <li><a href="/es/about/">Acerca de</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 Español</summary><ul><li><a href="/games/memory/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/memory/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/memory/" hreflang="es" lang="es" class="cur">Español</a></li><li><a href="/ar/games/memory/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/memory/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/memory/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/memory/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,14 +99,14 @@
 
   <main class="game-page">
     <h1>🃏 Memoria</h1>
-    <p class="game-sub">Voltea dos cartas a la vez: si coinciden, se quedan abiertas. ¡Encuentra las 8 parejas en el menor número de movimientos!</p>
+    <p class="game-sub">Voltea dos a la vez y empareja las 8 parejas.</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Zona de juego">
         <div class="hud">
           <div class="hud-item"><small>Movimientos</small><span id="moves">0</span></div><div class="hud-item"><small>Parejas</small><span id="pairs">0 / 8</span></div><div class="hud-item"><small>Tiempo (s)</small><span id="time">0</span></div>
         </div>
-        <div id="board" class="grid-board board-memory" role="grid" aria-label="Cartas del juego de memoria"></div>
+        <div id="board" class="grid-board board-memory" role="grid" aria-label="Área Memoria"></div>
         <div class="controls-row"><button class="btn btn-pink" id="btn-restart" type="button">Reiniciar</button></div>
         
       </section>
@@ -114,18 +115,18 @@
         <section class="panel">
           <h2>🎯 Cómo jugar</h2>
           <ul>
-            <li>Toca una carta para voltearla; solo dos pueden estar abiertas a la vez.</li>
-            <li>Si los dibujos coinciden, la pareja queda descubierta.</li>
-            <li>Si no, se voltean de nuevo. ¡Recuerda dónde estaban!</li>
-            <li>Encuentra las 8 parejas para ganar; menos movimientos, mejor puntuación.</li>
+            <li>Clic para voltear, máximo dos.</li>
+            <li>Iguales quedan visibles.</li>
+            <li>Distintas se ocultan.</li>
+            <li>8 parejas para ganar.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Consejos</h2>
           <ul>
-            <li>Voltea en orden y numera mentalmente las posiciones.</li>
-            <li>Al ver un dibujo nuevo, recuerda si ya apareció.</li>
-            <li>Descarta las parejas logradas para reducir lo que memorizas.</li>
+            <li>Numera las posiciones.</li>
+            <li>Recuerda nuevas.</li>
+            <li>Borra emparejadas.</li>
           </ul>
         </section>
         <section class="panel">
@@ -147,15 +148,34 @@
   <script>window.GAME_I18N = {"win": "🎉 ¡Todas las parejas! {moves} movimientos · {time} s", "card": "Carta {n}"};</script>
   <script src="/assets/js/games/memory.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/es/">Inicio</a></li>
-      <li><a href="/es/games/snake/">🐍 Snake</a></li>
-      <li><a href="/es/games/2048/">🔢 2048</a></li>
-      <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
-      <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
-      <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
-      <li><a href="/es/games/memory/">🃏 Memoria</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Arcade de Minijuegos</h3>
+        <ul class="footer-links">
+          <li><a href="/es/">Inicio</a></li>
+          <li><a href="/es/categories/">Categorías</a></li>
+          <li><a href="/es/new-games/">Nuevos juegos</a></li>
+          <li><a href="/es/popular-games/">Juegos populares</a></li>
+          <li><a href="/es/about/">Acerca de</a></li>
+          <li><a href="/es/contact/">Contáctanos</a></li>
+          <li><a href="/es/privacy/">Política de privacidad</a></li>
+          <li><a href="/es/terms/">Términos del servicio</a></li>
+          <li><a href="/es/cookie/">Política de cookies</a></li>
+          <li><a href="/es/dmca/">DMCA / Derechos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Todos los juegos</h3>
+        <ul class="footer-links">
+          <li><a href="/es/games/snake/">🐍 Snake</a></li>
+          <li><a href="/es/games/2048/">🔢 2048</a></li>
+          <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
+          <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
+          <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
+          <li><a href="/es/games/memory/">🃏 Memoria</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Arcade de Minijuegos · Juegos en línea gratis, juega al instante</p>
   </footer>
 </body>

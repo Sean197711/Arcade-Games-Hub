@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Змейка онлайн - Играть бесплатно в классическую змейку | Аркадные мини-игры</title>
-  <meta name="description" content="Управляйте змейкой, ешьте и растите. Не врезайтесь в стены и в себя — ставьте рекорды!" />
-  <meta name="keywords" content="змейка,змейка онлайн,игра змейка,классическая змейка,бесплатная змейка" />
+  <title>Играть в Змейку онлайн - Классика бесплатно | Аркадные мини-игры</title>
+  <meta name="description" content="Веди змейку к еде и расти, не врезаясь в стену или себя." />
+  <meta name="keywords" content="змейка,змейка онлайн,классическая" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/ru/games/snake/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Аркадные мини-игры" />
-  <meta property="og:title" content="Змейка онлайн - Играть бесплатно в классическую змейку | Аркадные мини-игры" />
-  <meta property="og:description" content="Управляйте змейкой, ешьте и растите. Не врезайтесь в стены и в себя — ставьте рекорды!" />
+  <meta property="og:title" content="Играть в Змейку онлайн - Классика бесплатно | Аркадные мини-игры" />
+  <meta property="og:description" content="Веди змейку к еде и расти, не врезаясь в стену или себя." />
   <meta property="og:url" content="https://games-hub.cc/ru/games/snake/" />
   <meta property="og:locale" content="ru_RU" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Змейка онлайн - Играть бесплатно в классическую змейку | Аркадные мини-игры" />
-  <meta name="twitter:description" content="Управляйте змейкой, ешьте и растите. Не врезайтесь в стены и в себя — ставьте рекорды!" />
+  <meta name="twitter:title" content="Играть в Змейку онлайн - Классика бесплатно | Аркадные мини-игры" />
+  <meta name="twitter:description" content="Веди змейку к еде и расти, не врезаясь в стену или себя." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "Змейка",
   "url": "https://games-hub.cc/ru/games/snake/",
-  "description": "Управляйте змейкой, ешьте и растите. Не врезайтесь в стены и в себя — ставьте рекорды!",
+  "description": "Веди змейку к еде и расти, не врезаясь в стену или себя.",
   "genre": "Аркада",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/ru/"><span class="logo-icon" aria-hidden="true">🕹️</span>Аркадные мини-игры</a>
       <ul class="nav-links">
         <li><a href="/ru/">Главная</a></li>
-        <li><a href="/ru/#games">Все игры</a></li>
-        
+        <li><a href="/ru/#games" aria-current="page">Все игры</a></li>
+        <li><a href="/ru/categories/">Категории</a></li>
+        <li><a href="/ru/new-games/">Новые игры</a></li>
+        <li><a href="/ru/popular-games/">Популярные игры</a></li>
+        <li><a href="/ru/about/">О нас</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 Русский</summary><ul><li><a href="/games/snake/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/snake/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/snake/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/snake/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/snake/" hreflang="ru" lang="ru" class="cur">Русский</a></li><li><a href="/ja/games/snake/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/snake/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,14 +99,14 @@
 
   <main class="game-page">
     <h1>🐍 Змейка</h1>
-    <p class="game-sub">Классика аркад: ешьте и растите — столкнётесь со стеной или с собой, и игра окончена. Чем выше счёт, тем выше скорость!</p>
+    <p class="game-sub">Ешь, чтобы расти; удар о стену или себя — конец. Быстрее с ростом очков!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Игровое поле">
         <div class="hud">
           <div class="hud-item"><small>Счёт</small><span id="score">0</span></div><div class="hud-item"><small>Рекорд</small><span id="best">0</span></div>
         </div>
-        <canvas id="game-canvas" width="400" height="400" role="img" aria-label="Поле игры «Змейка»"></canvas>
+        <canvas id="game-canvas" width="400" height="400" role="img" aria-label="Поле Змейки"></canvas>
         <div class="controls-row"><button class="btn btn-green" id="btn-start" type="button">Старт</button><button class="btn btn-cyan" id="btn-pause" type="button">Пауза</button><button class="btn btn-pink" id="btn-restart" type="button">Заново</button></div>
         <div class="pad" aria-label="Touch controls">
           <span></span><button type="button" data-dir="up" aria-label="Вверх">▲</button><span></span>
@@ -119,19 +120,19 @@
         <section class="panel">
           <h2>🎯 Как играть</h2>
           <ul>
-            <li>На компьютере: стрелки <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> или <kbd>WASD</kbd>, <kbd>пробел</kbd> — пауза/продолжить.</li>
-            <li>На телефоне: кнопки направлений под экраном.</li>
-            <li>Каждая еда даёт 10 очков и удлиняет змейку на один сегмент.</li>
-            <li>Столкновение со стеной или с собственным телом завершает игру.</li>
-            <li>Скорость растёт вместе со счётом; рекорд сохраняется на устройстве.</li>
+            <li>ПК: стрелки или <kbd>WASD</kbd>; <kbd>Пробел</kbd> пауза.</li>
+            <li>Телефон: экранные стрелки.</li>
+            <li>Еда +10 и удлиняет.</li>
+            <li>Удар заканчивает игру.</li>
+            <li>Скорость растёт.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Советы</h2>
           <ul>
-            <li>Держитесь ближе к краям, чтобы было место для манёвра.</li>
-            <li>Длинной змейкой избегайте тупиков.</li>
-            <li>Планируйте повороты заранее, не поворачивайте вплотную к еде.</li>
+            <li>Держись краёв.</li>
+            <li>Избегай тупиков.</li>
+            <li>Поворачивай заранее.</li>
           </ul>
         </section>
         <section class="panel">
@@ -153,15 +154,34 @@
   <script>window.GAME_I18N = {"gameOver": "Игра окончена! Счёт: {score}", "paused": "Пауза"};</script>
   <script src="/assets/js/games/snake.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/ru/">Главная</a></li>
-      <li><a href="/ru/games/snake/">🐍 Змейка</a></li>
-      <li><a href="/ru/games/2048/">🔢 2048</a></li>
-      <li><a href="/ru/games/tetris/">🧱 Тетрис</a></li>
-      <li><a href="/ru/games/minesweeper/">💣 Сапёр</a></li>
-      <li><a href="/ru/games/gomoku/">⚫ Гомоку</a></li>
-      <li><a href="/ru/games/memory/">🃏 Память</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Аркадные мини-игры</h3>
+        <ul class="footer-links">
+          <li><a href="/ru/">Главная</a></li>
+          <li><a href="/ru/categories/">Категории</a></li>
+          <li><a href="/ru/new-games/">Новые игры</a></li>
+          <li><a href="/ru/popular-games/">Популярные игры</a></li>
+          <li><a href="/ru/about/">О нас</a></li>
+          <li><a href="/ru/contact/">Связаться</a></li>
+          <li><a href="/ru/privacy/">Политика конфиденциальности</a></li>
+          <li><a href="/ru/terms/">Условия обслуживания</a></li>
+          <li><a href="/ru/cookie/">Политика Cookie</a></li>
+          <li><a href="/ru/dmca/">DMCA / Авторские права</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Все игры</h3>
+        <ul class="footer-links">
+          <li><a href="/ru/games/snake/">🐍 Змейка</a></li>
+          <li><a href="/ru/games/2048/">🔢 2048</a></li>
+          <li><a href="/ru/games/tetris/">🧱 Тетрис</a></li>
+          <li><a href="/ru/games/minesweeper/">💣 Сапёр</a></li>
+          <li><a href="/ru/games/gomoku/">⚫ Гомоку</a></li>
+          <li><a href="/ru/games/memory/">🃏 Память</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Аркадные мини-игры · Бесплатные онлайн-игры — играйте сразу</p>
   </footer>
 </body>

@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gomoku online - Juega gratis a cinco en raya contra la IA | Arcade de Minijuegos</title>
-  <meta name="description" content="Cinco en raya gana. Enfréntate a la IA integrada cuando quieras." />
-  <meta name="keywords" content="gomoku,gomoku online,cinco en raya,gomoku contra ia,juego de tablero,gomoku gratis" />
+  <title>Juega Gomoku en línea - VS IA gratis | Arcade de Minijuegos</title>
+  <meta name="description" content="Conecta cinco en línea para ganar. IA integrada." />
+  <meta name="keywords" content="gomoku,gomoku online,ia,tablero" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/es/games/gomoku/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/gomoku/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Arcade de Minijuegos" />
-  <meta property="og:title" content="Gomoku online - Juega gratis a cinco en raya contra la IA | Arcade de Minijuegos" />
-  <meta property="og:description" content="Cinco en raya gana. Enfréntate a la IA integrada cuando quieras." />
+  <meta property="og:title" content="Juega Gomoku en línea - VS IA gratis | Arcade de Minijuegos" />
+  <meta property="og:description" content="Conecta cinco en línea para ganar. IA integrada." />
   <meta property="og:url" content="https://games-hub.cc/es/games/gomoku/" />
   <meta property="og:locale" content="es_ES" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Gomoku online - Juega gratis a cinco en raya contra la IA | Arcade de Minijuegos" />
-  <meta name="twitter:description" content="Cinco en raya gana. Enfréntate a la IA integrada cuando quieras." />
+  <meta name="twitter:title" content="Juega Gomoku en línea - VS IA gratis | Arcade de Minijuegos" />
+  <meta name="twitter:description" content="Conecta cinco en línea para ganar. IA integrada." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "Gomoku",
   "url": "https://games-hub.cc/es/games/gomoku/",
-  "description": "Cinco en raya gana. Enfréntate a la IA integrada cuando quieras.",
+  "description": "Conecta cinco en línea para ganar. IA integrada.",
   "genre": "Tablero",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/es/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade de Minijuegos</a>
       <ul class="nav-links">
         <li><a href="/es/">Inicio</a></li>
-        <li><a href="/es/#games">Todos los juegos</a></li>
-        
+        <li><a href="/es/#games" aria-current="page">Todos los juegos</a></li>
+        <li><a href="/es/categories/">Categorías</a></li>
+        <li><a href="/es/new-games/">Nuevos juegos</a></li>
+        <li><a href="/es/popular-games/">Juegos populares</a></li>
+        <li><a href="/es/about/">Acerca de</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 Español</summary><ul><li><a href="/games/gomoku/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/gomoku/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/gomoku/" hreflang="es" lang="es" class="cur">Español</a></li><li><a href="/ar/games/gomoku/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/gomoku/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/gomoku/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/gomoku/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,14 +99,14 @@
 
   <main class="game-page">
     <h1>⚫ Gomoku</h1>
-    <p class="game-sub">Juegas con negras y mueves primero contra la IA: ¡conecta cinco piedras en cualquier dirección para ganar!</p>
+    <p class="game-sub">Juegas con negro y mueves primero. ¡Conecta cinco para ganar!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Zona de juego">
         <div class="hud">
           <div class="hud-item"><small>Estado de la partida</small><span id="status">Tu turno (negras)</span></div>
         </div>
-        <canvas id="game-canvas" width="480" height="480" style="background:#f5c96b;" role="img" aria-label="Tablero de Gomoku"></canvas>
+        <canvas id="game-canvas" width="480" height="480" style="background:#f5c96b;" role="img" aria-label="Tablero Gomoku"></canvas>
         <div class="controls-row"><button class="btn btn-pink" id="btn-restart" type="button">Reiniciar</button></div>
         
       </section>
@@ -114,18 +115,18 @@
         <section class="panel">
           <h2>🎯 Cómo jugar</h2>
           <ul>
-            <li>Haz clic en una intersección para colocar tu piedra; juegas con negras y mueves primero.</li>
-            <li>Gana quien conecte cinco piedras seguidas en cualquier dirección.</li>
-            <li>La IA integrada juega con blancas, atacando y defendiendo.</li>
-            <li>Si el tablero se llena sin ganador, es empate.</li>
+            <li>Clic en intersección, eres negro.</li>
+            <li>Cinco en cualquier dirección gana.</li>
+            <li>La IA responde sola.</li>
+            <li>Tablero lleno es empate.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Consejos</h2>
           <ul>
-            <li>Abre cerca del centro para dominar el tablero.</li>
-            <li>Crea tres y cuatros abiertos para presionar.</li>
-            <li>Vigila los tres de la IA y tápalos a tiempo.</li>
+            <li>Toma el centro.</li>
+            <li>Haz tres y cuatro abiertos.</li>
+            <li>Bloquea al rival.</li>
           </ul>
         </section>
         <section class="panel">
@@ -147,15 +148,34 @@
   <script>window.GAME_I18N = {"yourTurn": "Tu turno (negras)", "youWin": "🎉 ¡Ganaste!", "youWinToast": "🎉 ¡Felicidades, cinco en raya!", "aiWins": "Gana la computadora. ¿Otra?", "aiWinsToast": "Gana la computadora: pulsa Reiniciar para la revancha", "draw": "¡Empate!", "drawToast": "Tablero lleno: ¡empate!", "thinking": "La computadora piensa…"};</script>
   <script src="/assets/js/games/gomoku.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/es/">Inicio</a></li>
-      <li><a href="/es/games/snake/">🐍 Snake</a></li>
-      <li><a href="/es/games/2048/">🔢 2048</a></li>
-      <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
-      <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
-      <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
-      <li><a href="/es/games/memory/">🃏 Memoria</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Arcade de Minijuegos</h3>
+        <ul class="footer-links">
+          <li><a href="/es/">Inicio</a></li>
+          <li><a href="/es/categories/">Categorías</a></li>
+          <li><a href="/es/new-games/">Nuevos juegos</a></li>
+          <li><a href="/es/popular-games/">Juegos populares</a></li>
+          <li><a href="/es/about/">Acerca de</a></li>
+          <li><a href="/es/contact/">Contáctanos</a></li>
+          <li><a href="/es/privacy/">Política de privacidad</a></li>
+          <li><a href="/es/terms/">Términos del servicio</a></li>
+          <li><a href="/es/cookie/">Política de cookies</a></li>
+          <li><a href="/es/dmca/">DMCA / Derechos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Todos los juegos</h3>
+        <ul class="footer-links">
+          <li><a href="/es/games/snake/">🐍 Snake</a></li>
+          <li><a href="/es/games/2048/">🔢 2048</a></li>
+          <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
+          <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
+          <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
+          <li><a href="/es/games/memory/">🃏 Memoria</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Arcade de Minijuegos · Juegos en línea gratis, juega al instante</p>
   </footer>
 </body>

@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Тетрис онлайн - Играть бесплатно в классический тетрис | Аркадные мини-игры</title>
-  <meta name="description" content="Вращайте фигуры и очищайте линии в легендарном Тетрисе." />
-  <meta name="keywords" content="тетрис,тетрис онлайн,игра тетрис,классический тетрис,бесплатный тетрис" />
+  <title>Играть в Тетрис онлайн - Классика бесплатно | Аркадные мини-игры</title>
+  <meta name="description" content="Крути, двигай, убирай ряды. Вечная классика." />
+  <meta name="keywords" content="тетрис,тетрис онлайн,блоки" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/ru/games/tetris/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Аркадные мини-игры" />
-  <meta property="og:title" content="Тетрис онлайн - Играть бесплатно в классический тетрис | Аркадные мини-игры" />
-  <meta property="og:description" content="Вращайте фигуры и очищайте линии в легендарном Тетрисе." />
+  <meta property="og:title" content="Играть в Тетрис онлайн - Классика бесплатно | Аркадные мини-игры" />
+  <meta property="og:description" content="Крути, двигай, убирай ряды. Вечная классика." />
   <meta property="og:url" content="https://games-hub.cc/ru/games/tetris/" />
   <meta property="og:locale" content="ru_RU" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Тетрис онлайн - Играть бесплатно в классический тетрис | Аркадные мини-игры" />
-  <meta name="twitter:description" content="Вращайте фигуры и очищайте линии в легендарном Тетрисе." />
+  <meta name="twitter:title" content="Играть в Тетрис онлайн - Классика бесплатно | Аркадные мини-игры" />
+  <meta name="twitter:description" content="Крути, двигай, убирай ряды. Вечная классика." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "Тетрис",
   "url": "https://games-hub.cc/ru/games/tetris/",
-  "description": "Вращайте фигуры и очищайте линии в легендарном Тетрисе.",
+  "description": "Крути, двигай, убирай ряды. Вечная классика.",
   "genre": "Аркада",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/ru/"><span class="logo-icon" aria-hidden="true">🕹️</span>Аркадные мини-игры</a>
       <ul class="nav-links">
         <li><a href="/ru/">Главная</a></li>
-        <li><a href="/ru/#games">Все игры</a></li>
-        
+        <li><a href="/ru/#games" aria-current="page">Все игры</a></li>
+        <li><a href="/ru/categories/">Категории</a></li>
+        <li><a href="/ru/new-games/">Новые игры</a></li>
+        <li><a href="/ru/popular-games/">Популярные игры</a></li>
+        <li><a href="/ru/about/">О нас</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 Русский</summary><ul><li><a href="/games/tetris/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/tetris/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/tetris/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/tetris/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/tetris/" hreflang="ru" lang="ru" class="cur">Русский</a></li><li><a href="/ja/games/tetris/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/tetris/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,7 +99,7 @@
 
   <main class="game-page">
     <h1>🧱 Тетрис</h1>
-    <p class="game-sub">Вращайте и складывайте падающие фигуры — заполненные ряды исчезают. Новый уровень каждые 10 линий!</p>
+    <p class="game-sub">Заполни ряд — и он исчезнет. Уровень каждые 10 рядов!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Игровое поле">
@@ -106,7 +107,7 @@
           <div class="hud-item"><small>Счёт</small><span id="score">0</span></div><div class="hud-item"><small>Линии</small><span id="lines">0</span></div><div class="hud-item"><small>Уровень</small><span id="level">1</span></div>
         </div>
         <div style="display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;justify-content:center;">
-          <canvas id="game-canvas" width="240" height="480" role="img" aria-label="Поле игры «Тетрис»"></canvas>
+          <canvas id="game-canvas" width="240" height="480" role="img" aria-label="Поле Тетриса"></canvas>
           <div style="display:flex;flex-direction:column;gap:8px;align-items:center;">
             <strong>Далее</strong>
             <canvas id="next-canvas" width="96" height="84" style="background:#141428;border:3px solid var(--ink);border-radius:12px;" role="img" aria-label="Далее"></canvas>
@@ -126,18 +127,18 @@
         <section class="panel">
           <h2>🎯 Как играть</h2>
           <ul>
-            <li><kbd>←</kbd><kbd>→</kbd> двигают фигуру, <kbd>↓</kbd> — ускоренное падение.</li>
-            <li><kbd>↑</kbd> или <kbd>W</kbd> — поворот, <kbd>пробел</kbd> — мгновенное падение.</li>
-            <li>Заполните ряд, чтобы убрать его; несколько рядов сразу дают больше очков.</li>
-            <li>Игра заканчивается, когда стопка достигает верха.</li>
+            <li><kbd>←</kbd><kbd>→</kbd> двигать, <kbd>↓</kbd> мягко.</li>
+            <li><kbd>↑</kbd>/<kbd>W</kbd> крутить, <kbd>Пробел</kbd> бросить.</li>
+            <li>Убирай ряды.</li>
+            <li>Доверху — конец.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Советы</h2>
           <ul>
-            <li>Оставляйте «колодец» в одну клетку для палки (I) и убирайте сразу 4 линии.</li>
-            <li>Держите поверхность ровной, без пустот.</li>
-            <li>На высоких уровнях заранее решайте, куда ставить следующую фигуру.</li>
+            <li>Оставь колодец для I.</li>
+            <li>Держи ровно.</li>
+            <li>Планируй следующую.</li>
           </ul>
         </section>
         <section class="panel">
@@ -159,15 +160,34 @@
   <script>window.GAME_I18N = {"gameOver": "Игра окончена! Счёт: {score}", "paused": "Пауза"};</script>
   <script src="/assets/js/games/tetris.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/ru/">Главная</a></li>
-      <li><a href="/ru/games/snake/">🐍 Змейка</a></li>
-      <li><a href="/ru/games/2048/">🔢 2048</a></li>
-      <li><a href="/ru/games/tetris/">🧱 Тетрис</a></li>
-      <li><a href="/ru/games/minesweeper/">💣 Сапёр</a></li>
-      <li><a href="/ru/games/gomoku/">⚫ Гомоку</a></li>
-      <li><a href="/ru/games/memory/">🃏 Память</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Аркадные мини-игры</h3>
+        <ul class="footer-links">
+          <li><a href="/ru/">Главная</a></li>
+          <li><a href="/ru/categories/">Категории</a></li>
+          <li><a href="/ru/new-games/">Новые игры</a></li>
+          <li><a href="/ru/popular-games/">Популярные игры</a></li>
+          <li><a href="/ru/about/">О нас</a></li>
+          <li><a href="/ru/contact/">Связаться</a></li>
+          <li><a href="/ru/privacy/">Политика конфиденциальности</a></li>
+          <li><a href="/ru/terms/">Условия обслуживания</a></li>
+          <li><a href="/ru/cookie/">Политика Cookie</a></li>
+          <li><a href="/ru/dmca/">DMCA / Авторские права</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Все игры</h3>
+        <ul class="footer-links">
+          <li><a href="/ru/games/snake/">🐍 Змейка</a></li>
+          <li><a href="/ru/games/2048/">🔢 2048</a></li>
+          <li><a href="/ru/games/tetris/">🧱 Тетрис</a></li>
+          <li><a href="/ru/games/minesweeper/">💣 Сапёр</a></li>
+          <li><a href="/ru/games/gomoku/">⚫ Гомоку</a></li>
+          <li><a href="/ru/games/memory/">🃏 Память</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Аркадные мини-игры · Бесплатные онлайн-игры — играйте сразу</p>
   </footer>
 </body>

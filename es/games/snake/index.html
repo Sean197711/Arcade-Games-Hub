@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Snake online - Juega gratis al clásico juego de la serpiente | Arcade de Minijuegos</title>
-  <meta name="description" content="Guía a la serpiente para comer y crecer. ¡Evita chocar contigo misma y supera tu récord!" />
-  <meta name="keywords" content="snake,snake online,juego de la serpiente,serpiente clásica,juego gratis" />
+  <title>Juega Snake en línea - Clásico gratis | Arcade de Minijuegos</title>
+  <meta name="description" content="Guía a la serpiente para comer y crecer, sin chocar con la pared ni contigo mismo." />
+  <meta name="keywords" content="snake,snake online,jugar snake,serpiente clásica" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/es/games/snake/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Arcade de Minijuegos" />
-  <meta property="og:title" content="Snake online - Juega gratis al clásico juego de la serpiente | Arcade de Minijuegos" />
-  <meta property="og:description" content="Guía a la serpiente para comer y crecer. ¡Evita chocar contigo misma y supera tu récord!" />
+  <meta property="og:title" content="Juega Snake en línea - Clásico gratis | Arcade de Minijuegos" />
+  <meta property="og:description" content="Guía a la serpiente para comer y crecer, sin chocar con la pared ni contigo mismo." />
   <meta property="og:url" content="https://games-hub.cc/es/games/snake/" />
   <meta property="og:locale" content="es_ES" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Snake online - Juega gratis al clásico juego de la serpiente | Arcade de Minijuegos" />
-  <meta name="twitter:description" content="Guía a la serpiente para comer y crecer. ¡Evita chocar contigo misma y supera tu récord!" />
+  <meta name="twitter:title" content="Juega Snake en línea - Clásico gratis | Arcade de Minijuegos" />
+  <meta name="twitter:description" content="Guía a la serpiente para comer y crecer, sin chocar con la pared ni contigo mismo." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "Snake",
   "url": "https://games-hub.cc/es/games/snake/",
-  "description": "Guía a la serpiente para comer y crecer. ¡Evita chocar contigo misma y supera tu récord!",
+  "description": "Guía a la serpiente para comer y crecer, sin chocar con la pared ni contigo mismo.",
   "genre": "Arcade",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/es/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade de Minijuegos</a>
       <ul class="nav-links">
         <li><a href="/es/">Inicio</a></li>
-        <li><a href="/es/#games">Todos los juegos</a></li>
-        
+        <li><a href="/es/#games" aria-current="page">Todos los juegos</a></li>
+        <li><a href="/es/categories/">Categorías</a></li>
+        <li><a href="/es/new-games/">Nuevos juegos</a></li>
+        <li><a href="/es/popular-games/">Juegos populares</a></li>
+        <li><a href="/es/about/">Acerca de</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 Español</summary><ul><li><a href="/games/snake/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/snake/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/snake/" hreflang="es" lang="es" class="cur">Español</a></li><li><a href="/ar/games/snake/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/snake/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/snake/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/snake/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,14 +99,14 @@
 
   <main class="game-page">
     <h1>🐍 Snake</h1>
-    <p class="game-sub">El clásico arcade: come para crecer; choca contra el muro o tu cola y pierdes. ¡A más puntos, más velocidad!</p>
+    <p class="game-sub">Come para crecer; chocar con la pared o contigo mismo termina el juego. ¡Más rápido al subir!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Zona de juego">
         <div class="hud">
           <div class="hud-item"><small>Puntos</small><span id="score">0</span></div><div class="hud-item"><small>Récord</small><span id="best">0</span></div>
         </div>
-        <canvas id="game-canvas" width="400" height="400" role="img" aria-label="Tablero del juego Snake"></canvas>
+        <canvas id="game-canvas" width="400" height="400" role="img" aria-label="Lienzo de Snake"></canvas>
         <div class="controls-row"><button class="btn btn-green" id="btn-start" type="button">Comenzar</button><button class="btn btn-cyan" id="btn-pause" type="button">Pausa</button><button class="btn btn-pink" id="btn-restart" type="button">Reiniciar</button></div>
         <div class="pad" aria-label="Touch controls">
           <span></span><button type="button" data-dir="up" aria-label="Arriba">▲</button><span></span>
@@ -119,19 +120,19 @@
         <section class="panel">
           <h2>🎯 Cómo jugar</h2>
           <ul>
-            <li>En PC: gira con <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> o <kbd>WASD</kbd>, <kbd>Espacio</kbd> para pausar/continuar.</li>
-            <li>En móvil: toca los botones de dirección bajo la pantalla.</li>
-            <li>Cada comida vale 10 puntos y alarga la serpiente un segmento.</li>
-            <li>Chocar contra la pared o tu propio cuerpo termina la partida.</li>
-            <li>La velocidad aumenta con los puntos; tu récord se guarda en el dispositivo.</li>
+            <li>PC: flechas o <kbd>WASD</kbd>; <kbd>Espacio</kbd> pausa.</li>
+            <li>Móvil: usa las flechas en pantalla.</li>
+            <li>Cada comida suma 10 y alarga la serpiente.</li>
+            <li>Chocar con pared o cuerpo termina el juego.</li>
+            <li>A mayor puntaje, más velocidad; el récord se guarda.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Consejos</h2>
           <ul>
-            <li>Muévete cerca de los bordes para tener espacio de maniobra.</li>
-            <li>Con una serpiente larga, evita los callejones sin salida.</li>
-            <li>Anticipa los giros, no esperes a llegar a la comida.</li>
+            <li>Ve por los bordes para tener espacio.</li>
+            <li>Evita callejones sin salida.</li>
+            <li>Gira antes de llegar a la comida.</li>
           </ul>
         </section>
         <section class="panel">
@@ -153,15 +154,34 @@
   <script>window.GAME_I18N = {"gameOver": "¡Fin del juego! Puntos: {score}", "paused": "En pausa"};</script>
   <script src="/assets/js/games/snake.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/es/">Inicio</a></li>
-      <li><a href="/es/games/snake/">🐍 Snake</a></li>
-      <li><a href="/es/games/2048/">🔢 2048</a></li>
-      <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
-      <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
-      <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
-      <li><a href="/es/games/memory/">🃏 Memoria</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Arcade de Minijuegos</h3>
+        <ul class="footer-links">
+          <li><a href="/es/">Inicio</a></li>
+          <li><a href="/es/categories/">Categorías</a></li>
+          <li><a href="/es/new-games/">Nuevos juegos</a></li>
+          <li><a href="/es/popular-games/">Juegos populares</a></li>
+          <li><a href="/es/about/">Acerca de</a></li>
+          <li><a href="/es/contact/">Contáctanos</a></li>
+          <li><a href="/es/privacy/">Política de privacidad</a></li>
+          <li><a href="/es/terms/">Términos del servicio</a></li>
+          <li><a href="/es/cookie/">Política de cookies</a></li>
+          <li><a href="/es/dmca/">DMCA / Derechos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Todos los juegos</h3>
+        <ul class="footer-links">
+          <li><a href="/es/games/snake/">🐍 Snake</a></li>
+          <li><a href="/es/games/2048/">🔢 2048</a></li>
+          <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
+          <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
+          <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
+          <li><a href="/es/games/memory/">🃏 Memoria</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Arcade de Minijuegos · Juegos en línea gratis, juega al instante</p>
   </footer>
 </body>

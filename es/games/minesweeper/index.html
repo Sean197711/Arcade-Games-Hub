@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Buscaminas online - Juega gratis al clásico puzle | Arcade de Minijuegos</title>
-  <meta name="description" content="Deduce dónde están las minas con las pistas numéricas y márcalas todas para ganar." />
-  <meta name="keywords" content="buscaminas,buscaminas online,juego buscaminas,buscaminas clásico,buscaminas gratis" />
+  <title>Juega Buscaminas en línea - Clásico gratis | Arcade de Minijuegos</title>
+  <meta name="description" content="Usa las pistas para deducir las minas y marcarlas. Lógica pura." />
+  <meta name="keywords" content="buscaminas,buscaminas online,gratis,lógica" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/es/games/minesweeper/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Arcade de Minijuegos" />
-  <meta property="og:title" content="Buscaminas online - Juega gratis al clásico puzle | Arcade de Minijuegos" />
-  <meta property="og:description" content="Deduce dónde están las minas con las pistas numéricas y márcalas todas para ganar." />
+  <meta property="og:title" content="Juega Buscaminas en línea - Clásico gratis | Arcade de Minijuegos" />
+  <meta property="og:description" content="Usa las pistas para deducir las minas y marcarlas. Lógica pura." />
   <meta property="og:url" content="https://games-hub.cc/es/games/minesweeper/" />
   <meta property="og:locale" content="es_ES" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Buscaminas online - Juega gratis al clásico puzle | Arcade de Minijuegos" />
-  <meta name="twitter:description" content="Deduce dónde están las minas con las pistas numéricas y márcalas todas para ganar." />
+  <meta name="twitter:title" content="Juega Buscaminas en línea - Clásico gratis | Arcade de Minijuegos" />
+  <meta name="twitter:description" content="Usa las pistas para deducir las minas y marcarlas. Lógica pura." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "Buscaminas",
   "url": "https://games-hub.cc/es/games/minesweeper/",
-  "description": "Deduce dónde están las minas con las pistas numéricas y márcalas todas para ganar.",
+  "description": "Usa las pistas para deducir las minas y marcarlas. Lógica pura.",
   "genre": "Puzle",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/es/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade de Minijuegos</a>
       <ul class="nav-links">
         <li><a href="/es/">Inicio</a></li>
-        <li><a href="/es/#games">Todos los juegos</a></li>
-        
+        <li><a href="/es/#games" aria-current="page">Todos los juegos</a></li>
+        <li><a href="/es/categories/">Categorías</a></li>
+        <li><a href="/es/new-games/">Nuevos juegos</a></li>
+        <li><a href="/es/popular-games/">Juegos populares</a></li>
+        <li><a href="/es/about/">Acerca de</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 Español</summary><ul><li><a href="/games/minesweeper/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/minesweeper/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/minesweeper/" hreflang="es" lang="es" class="cur">Español</a></li><li><a href="/ar/games/minesweeper/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/minesweeper/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/minesweeper/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/minesweeper/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,7 +99,7 @@
 
   <main class="game-page">
     <h1>💣 Buscaminas</h1>
-    <p class="game-sub">El número indica cuántas minas hay en las 8 casillas vecinas. ¡Dedúcelo y márcalas todas!</p>
+    <p class="game-sub">Los números indican minas vecinas. ¡Marca todas para ganar!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Zona de juego">
@@ -108,12 +109,12 @@
         <div class="controls-row">
           <label for="difficulty" style="font-weight:700;">Dificultad: </label>
           <select id="difficulty" style="font-family:inherit;font-size:1rem;padding:6px 12px;border:3px solid var(--ink);border-radius:10px;background:#fff;">
-            <option value="easy" selected>Fácil 9×9 (10 minas)</option><option value="medium">Medio 12×12 (24 minas)</option><option value="hard">Difícil 16×16 (40 minas)</option>
+            <option value="easy" selected>Fácil 9×9 (10)</option><option value="medium">Medio 12×12 (24)</option><option value="hard">Difícil 16×16 (40)</option>
           </select>
           <button class="btn btn-pink" id="btn-restart" type="button">Reiniciar</button>
         </div>
         <div style="overflow-x:auto;max-width:100%;">
-          <div id="board" class="grid-board board-mine" role="grid" aria-label="Tablero de Buscaminas"></div>
+          <div class="grid-board board-mine" id="board" role="grid" aria-label="Tablero Buscaminas"></div>
         </div>
         
         
@@ -123,18 +124,18 @@
         <section class="panel">
           <h2>🎯 Cómo jugar</h2>
           <ul>
-            <li>Clic izquierdo (toque en móvil) para revelar una casilla.</li>
-            <li>Clic derecho (pulsación larga en móvil) para poner o quitar una bandera.</li>
-            <li>El número indica cuántas minas hay en las 8 casillas vecinas.</li>
-            <li>Revela todas las casillas seguras para ganar; el primer clic siempre es seguro.</li>
+            <li>Clic izquierdo revela.</li>
+            <li>Clic derecho (mantener) marca mina.</li>
+            <li>El número indica minas cercanas.</li>
+            <li>Revela todo lo que no es mina para ganar.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Consejos</h2>
           <ul>
-            <li>Empieza por esquinas y bordes, donde hay menos incógnitas.</li>
-            <li>Si un número ya tiene suficientes banderas alrededor, el resto es seguro.</li>
-            <li>¿Dudas? Marca la casilla y abre camino por otra zona.</li>
+            <li>Empieza en esquinas.</li>
+            <li>Con suficientes banderas, lo demás es seguro.</li>
+            <li>Marca lo dudoso y rompe por otro lado.</li>
           </ul>
         </section>
         <section class="panel">
@@ -156,15 +157,34 @@
   <script>window.GAME_I18N = {"boom": "¡Boom! Pisaste una mina. Tiempo: {time} s", "win": "🎉 ¡Completado! Tiempo: {time} s"};</script>
   <script src="/assets/js/games/minesweeper.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/es/">Inicio</a></li>
-      <li><a href="/es/games/snake/">🐍 Snake</a></li>
-      <li><a href="/es/games/2048/">🔢 2048</a></li>
-      <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
-      <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
-      <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
-      <li><a href="/es/games/memory/">🃏 Memoria</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Arcade de Minijuegos</h3>
+        <ul class="footer-links">
+          <li><a href="/es/">Inicio</a></li>
+          <li><a href="/es/categories/">Categorías</a></li>
+          <li><a href="/es/new-games/">Nuevos juegos</a></li>
+          <li><a href="/es/popular-games/">Juegos populares</a></li>
+          <li><a href="/es/about/">Acerca de</a></li>
+          <li><a href="/es/contact/">Contáctanos</a></li>
+          <li><a href="/es/privacy/">Política de privacidad</a></li>
+          <li><a href="/es/terms/">Términos del servicio</a></li>
+          <li><a href="/es/cookie/">Política de cookies</a></li>
+          <li><a href="/es/dmca/">DMCA / Derechos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Todos los juegos</h3>
+        <ul class="footer-links">
+          <li><a href="/es/games/snake/">🐍 Snake</a></li>
+          <li><a href="/es/games/2048/">🔢 2048</a></li>
+          <li><a href="/es/games/tetris/">🧱 Tetris</a></li>
+          <li><a href="/es/games/minesweeper/">💣 Buscaminas</a></li>
+          <li><a href="/es/games/gomoku/">⚫ Gomoku</a></li>
+          <li><a href="/es/games/memory/">🃏 Memoria</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Arcade de Minijuegos · Juegos en línea gratis, juega al instante</p>
   </footer>
 </body>

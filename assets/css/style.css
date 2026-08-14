@@ -597,3 +597,143 @@ img { max-width: 100%; }
 [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] .btn {
   font-family: "Segoe UI", "Noto Sans Arabic", "Tahoma", sans-serif;
 }
+
+/* ---------- 分类网格 ---------- */
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 18px;
+  list-style: none;
+}
+
+.cat-card a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 22px 12px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.cat-card a:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.cat-card .cat-icon {
+  font-size: 2.6rem;
+  line-height: 1;
+}
+
+.cat-card .cat-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* ---------- Why 网格 ---------- */
+.why .why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  list-style: none;
+  margin-top: 18px;
+}
+
+.why-item {
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 20px;
+}
+
+.why-item .why-title {
+  display: block;
+  font-family: "ZCOOL KuaiLe", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.why-item p { color: #555; }
+
+/* ---------- FAQ ---------- */
+.faq .faq-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.faq-item {
+  background: #fff;
+  border: 4px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 16px 20px;
+}
+
+.faq-q { font-size: 1.15rem; margin-bottom: 6px; }
+.faq-a { color: #555; }
+
+/* ---------- 站点页（About/Contact/Privacy/Terms/Cookie/DMCA） ---------- */
+.legal-page, .legal-page.prose {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+}
+
+.legal-page h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin-bottom: 10px;
+}
+
+.legal-intro { color: #555; margin-bottom: 24px; }
+
+.legal-page h2 {
+  font-size: 1.35rem;
+  margin: 26px 0 10px;
+}
+
+.legal-page p { color: #444; margin-bottom: 12px; max-width: 760px; }
+
+.legal-item { margin-bottom: 20px; }
+
+.contact-email {
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: var(--yellow);
+  border: 4px solid var(--ink);
+  border-radius: 14px;
+  padding: 14px 22px;
+  display: inline-block;
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-email a { color: var(--ink); text-decoration: none; }
+
+/* ---------- 页脚分栏 ---------- */
+.footer-cols {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer-cols h3 {
+  color: var(--yellow);
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.site-footer .footer-cols .footer-links {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 0;
+}

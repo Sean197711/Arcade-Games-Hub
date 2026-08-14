@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minesweeper Online - Play Free Classic Puzzle Game | Arcade Games Hub</title>
-  <meta name="description" content="Use number clues to deduce where the mines are. Flag them all to win!" />
-  <meta name="keywords" content="minesweeper,minesweeper online,minesweeper game,classic minesweeper,free minesweeper" />
+  <title>Play Minesweeper Online - Free Classic Puzzle (Easy/Medium/Hard) | Arcade Games Hub</title>
+  <meta name="description" content="Use number clues to deduce mine locations and flag them all. Pure logic and luck." />
+  <meta name="keywords" content="minesweeper,minesweeper online,free minesweeper,classic minesweeper,puzzle game" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/games/minesweeper/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Arcade Games Hub" />
-  <meta property="og:title" content="Minesweeper Online - Play Free Classic Puzzle Game | Arcade Games Hub" />
-  <meta property="og:description" content="Use number clues to deduce where the mines are. Flag them all to win!" />
+  <meta property="og:title" content="Play Minesweeper Online - Free Classic Puzzle (Easy/Medium/Hard) | Arcade Games Hub" />
+  <meta property="og:description" content="Use number clues to deduce mine locations and flag them all. Pure logic and luck." />
   <meta property="og:url" content="https://games-hub.cc/games/minesweeper/" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Minesweeper Online - Play Free Classic Puzzle Game | Arcade Games Hub" />
-  <meta name="twitter:description" content="Use number clues to deduce where the mines are. Flag them all to win!" />
+  <meta name="twitter:title" content="Play Minesweeper Online - Free Classic Puzzle (Easy/Medium/Hard) | Arcade Games Hub" />
+  <meta name="twitter:description" content="Use number clues to deduce mine locations and flag them all. Pure logic and luck." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "Minesweeper",
   "url": "https://games-hub.cc/games/minesweeper/",
-  "description": "Use number clues to deduce where the mines are. Flag them all to win!",
+  "description": "Use number clues to deduce mine locations and flag them all. Pure logic and luck.",
   "genre": "Puzzle",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade Games Hub</a>
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
-        <li><a href="/#games">All games</a></li>
-        
+        <li><a href="/#games" aria-current="page">All Games</a></li>
+        <li><a href="/categories/">Categories</a></li>
+        <li><a href="/new-games/">New Games</a></li>
+        <li><a href="/popular-games/">Popular Games</a></li>
+        <li><a href="/about/">About Us</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 English</summary><ul><li><a href="/games/minesweeper/" hreflang="en" lang="en" class="cur">English</a></li><li><a href="/zh/games/minesweeper/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/minesweeper/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/minesweeper/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/minesweeper/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/minesweeper/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/minesweeper/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,7 +99,7 @@
 
   <main class="game-page">
     <h1>💣 Minesweeper</h1>
-    <p class="game-sub">The number tells you how many mines hide in the 8 surrounding cells. Deduce and flag them all!</p>
+    <p class="game-sub">Numbers show how many mines sit in the 8 surrounding cells. Flag them all to win!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="Game area">
@@ -113,7 +114,7 @@
           <button class="btn btn-pink" id="btn-restart" type="button">Restart</button>
         </div>
         <div style="overflow-x:auto;max-width:100%;">
-          <div id="board" class="grid-board board-mine" role="grid" aria-label="Minesweeper board"></div>
+          <div class="grid-board board-mine" id="board" role="grid" aria-label="Minesweeper board"></div>
         </div>
         
         
@@ -123,18 +124,18 @@
         <section class="panel">
           <h2>🎯 How to play</h2>
           <ul>
-            <li>Left-click (tap on mobile) to reveal a cell.</li>
-            <li>Right-click (long-press on mobile) to place or remove a flag.</li>
-            <li>A number shows how many mines are in the 8 surrounding cells.</li>
-            <li>Reveal all safe cells to win; your first click is always safe.</li>
+            <li>Left click (tap) to reveal a cell.</li>
+            <li>Right click (long press) to flag a mine, again to cancel.</li>
+            <li>A number tells how many mines are around it.</li>
+            <li>Reveal all non-mine cells to win; first click is always safe.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 Pro tips</h2>
           <ul>
-            <li>Start from corners and edges where clues are easier.</li>
-            <li>If a number already has enough flags around it, the rest of its neighbors are safe.</li>
-            <li>Not sure? Mark the cell and break through from another area first.</li>
+            <li>Start from corners and edges for clearer info.</li>
+            <li>When enough flags surround a number, other cells are safe.</li>
+            <li>Mark unsure cells and break elsewhere first.</li>
           </ul>
         </section>
         <section class="panel">
@@ -156,15 +157,34 @@
   <script>window.GAME_I18N = {"boom": "Boom! You hit a mine. Time: {time}s", "win": "🎉 Cleared! Time: {time}s"};</script>
   <script src="/assets/js/games/minesweeper.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/games/snake/">🐍 Snake</a></li>
-      <li><a href="/games/2048/">🔢 2048</a></li>
-      <li><a href="/games/tetris/">🧱 Tetris</a></li>
-      <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
-      <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
-      <li><a href="/games/memory/">🃏 Memory Match</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>Arcade Games Hub</h3>
+        <ul class="footer-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/categories/">Categories</a></li>
+          <li><a href="/new-games/">New Games</a></li>
+          <li><a href="/popular-games/">Popular Games</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/cookie/">Cookie Policy</a></li>
+          <li><a href="/dmca/">DMCA / Copyright</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>All Games</h3>
+        <ul class="footer-links">
+          <li><a href="/games/snake/">🐍 Snake</a></li>
+          <li><a href="/games/2048/">🔢 2048</a></li>
+          <li><a href="/games/tetris/">🧱 Tetris</a></li>
+          <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+          <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+          <li><a href="/games/memory/">🃏 Memory Match</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 Arcade Games Hub · Free online games, play instantly</p>
   </footer>
 </body>

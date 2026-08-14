@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>스네이크 게임 - 무료 온라인 클래식 뱀 게임 | 미니게임 놀이터</title>
-  <meta name="description" content="뱀을 조종해 먹이를 먹고 길어지세요. 벽이나 몸에 부딪히지 않고 최고 점수에 도전!" />
-  <meta name="keywords" content="스네이크,뱀 게임,스네이크 게임,무료 게임,온라인 게임" />
+  <title>스네이크 무료 플레이 | 미니게임 놀이터</title>
+  <meta name="description" content="뱀이를 굴려 먹이를 먹여 키우세요. 벽이나 자신에게 부딪히지 않게." />
+  <meta name="keywords" content="스네이크,스네이크 온라인,클래식" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/ko/games/snake/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/snake/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="미니게임 놀이터" />
-  <meta property="og:title" content="스네이크 게임 - 무료 온라인 클래식 뱀 게임 | 미니게임 놀이터" />
-  <meta property="og:description" content="뱀을 조종해 먹이를 먹고 길어지세요. 벽이나 몸에 부딪히지 않고 최고 점수에 도전!" />
+  <meta property="og:title" content="스네이크 무료 플레이 | 미니게임 놀이터" />
+  <meta property="og:description" content="뱀이를 굴려 먹이를 먹여 키우세요. 벽이나 자신에게 부딪히지 않게." />
   <meta property="og:url" content="https://games-hub.cc/ko/games/snake/" />
   <meta property="og:locale" content="ko_KR" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="스네이크 게임 - 무료 온라인 클래식 뱀 게임 | 미니게임 놀이터" />
-  <meta name="twitter:description" content="뱀을 조종해 먹이를 먹고 길어지세요. 벽이나 몸에 부딪히지 않고 최고 점수에 도전!" />
+  <meta name="twitter:title" content="스네이크 무료 플레이 | 미니게임 놀이터" />
+  <meta name="twitter:description" content="뱀이를 굴려 먹이를 먹여 키우세요. 벽이나 자신에게 부딪히지 않게." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "스네이크",
   "url": "https://games-hub.cc/ko/games/snake/",
-  "description": "뱀을 조종해 먹이를 먹고 길어지세요. 벽이나 몸에 부딪히지 않고 최고 점수에 도전!",
+  "description": "뱀이를 굴려 먹이를 먹여 키우세요. 벽이나 자신에게 부딪히지 않게.",
   "genre": "아케이드",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/ko/"><span class="logo-icon" aria-hidden="true">🕹️</span>미니게임 놀이터</a>
       <ul class="nav-links">
         <li><a href="/ko/">홈</a></li>
-        <li><a href="/ko/#games">전체 게임</a></li>
-        
+        <li><a href="/ko/#games" aria-current="page">전체 게임</a></li>
+        <li><a href="/ko/categories/">카테고리</a></li>
+        <li><a href="/ko/new-games/">새로운 게임</a></li>
+        <li><a href="/ko/popular-games/">인기 게임</a></li>
+        <li><a href="/ko/about/">소개</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 한국어</summary><ul><li><a href="/games/snake/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/snake/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/snake/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/snake/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/snake/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/snake/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/snake/" hreflang="ko" lang="ko" class="cur">한국어</a></li></ul></details>
     </nav>
@@ -98,14 +99,14 @@
 
   <main class="game-page">
     <h1>🐍 스네이크</h1>
-    <p class="game-sub">고전 아케이드: 먹이를 먹고 길어지세요. 벽이나 자기 몸에 부딪히면 끝! 점수가 오를수록 빨라집니다.</p>
+    <p class="game-sub">먹으면 길어집니다. 벽이나 자신에 부딪히면 종료. 빨라집니다!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="게임 영역">
         <div class="hud">
           <div class="hud-item"><small>점수</small><span id="score">0</span></div><div class="hud-item"><small>최고 기록</small><span id="best">0</span></div>
         </div>
-        <canvas id="game-canvas" width="400" height="400" role="img" aria-label="스네이크 게임 보드"></canvas>
+        <canvas id="game-canvas" width="400" height="400" role="img" aria-label="스네이크 판"></canvas>
         <div class="controls-row"><button class="btn btn-green" id="btn-start" type="button">시작</button><button class="btn btn-cyan" id="btn-pause" type="button">일시정지</button><button class="btn btn-pink" id="btn-restart" type="button">다시 시작</button></div>
         <div class="pad" aria-label="Touch controls">
           <span></span><button type="button" data-dir="up" aria-label="위">▲</button><span></span>
@@ -119,19 +120,19 @@
         <section class="panel">
           <h2>🎯 게임 방법</h2>
           <ul>
-            <li>PC: 방향키 <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> 또는 <kbd>WASD</kbd>로 조종, <kbd>스페이스바</kbd>로 일시정지/계속.</li>
-            <li>모바일: 화면 아래 방향 버튼으로 조종하세요.</li>
-            <li>먹이 하나당 10점을 얻고 뱀이 한 칸 길어집니다.</li>
-            <li>벽이나 자기 몸에 부딪히면 게임이 끝납니다.</li>
-            <li>점수가 오를수록 속도가 빨라지며 최고 기록은 기기에 저장됩니다.</li>
+            <li>PC: 화살표나 <kbd>WASD</kbd>; <kbd>스페이스</kbd> 일시정지.</li>
+            <li>모바일: 화면 버튼.</li>
+            <li>먹이 +10, 길어짐.</li>
+            <li>부딪히면 종료.</li>
+            <li>빠르게!</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 고득점 팁</h2>
           <ul>
-            <li>가장자리를 따라 움직여 회피 공간을 확보하세요.</li>
-            <li>몸이 길어지면 막다른 길은 피하세요.</li>
-            <li>먹이 앞에서 급하게 꺾지 말고 미리 방향을 정하세요.</li>
+            <li>가장자리로.</li>
+            <li>막다른 곳 피하기.</li>
+            <li>미리 회전.</li>
           </ul>
         </section>
         <section class="panel">
@@ -153,15 +154,34 @@
   <script>window.GAME_I18N = {"gameOver": "게임 종료! 점수: {score}", "paused": "일시정지됨"};</script>
   <script src="/assets/js/games/snake.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/ko/">홈</a></li>
-      <li><a href="/ko/games/snake/">🐍 스네이크</a></li>
-      <li><a href="/ko/games/2048/">🔢 2048</a></li>
-      <li><a href="/ko/games/tetris/">🧱 테트리스</a></li>
-      <li><a href="/ko/games/minesweeper/">💣 지뢰찾기</a></li>
-      <li><a href="/ko/games/gomoku/">⚫ 오목</a></li>
-      <li><a href="/ko/games/memory/">🃏 메모리 카드</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>미니게임 놀이터</h3>
+        <ul class="footer-links">
+          <li><a href="/ko/">홈</a></li>
+          <li><a href="/ko/categories/">카테고리</a></li>
+          <li><a href="/ko/new-games/">새로운 게임</a></li>
+          <li><a href="/ko/popular-games/">인기 게임</a></li>
+          <li><a href="/ko/about/">소개</a></li>
+          <li><a href="/ko/contact/">문의하기</a></li>
+          <li><a href="/ko/privacy/">개인정보 처리방침</a></li>
+          <li><a href="/ko/terms/">이용 약관</a></li>
+          <li><a href="/ko/cookie/">쿠키 정책</a></li>
+          <li><a href="/ko/dmca/">DMCA / 저작권</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>전체 게임</h3>
+        <ul class="footer-links">
+          <li><a href="/ko/games/snake/">🐍 스네이크</a></li>
+          <li><a href="/ko/games/2048/">🔢 2048</a></li>
+          <li><a href="/ko/games/tetris/">🧱 테트리스</a></li>
+          <li><a href="/ko/games/minesweeper/">💣 지뢰찾기</a></li>
+          <li><a href="/ko/games/gomoku/">⚫ 오목</a></li>
+          <li><a href="/ko/games/memory/">🃏 메모리 카드</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 미니게임 놀이터 · 무료 온라인 게임, 바로 플레이</p>
   </footer>
 </body>

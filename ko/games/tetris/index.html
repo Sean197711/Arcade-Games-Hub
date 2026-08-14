@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>테트리스 - 무료 온라인 클래식 블록 게임 | 미니게임 놀이터</title>
-  <meta name="description" content="블록을 돌리고 쌓아 줄을 지우는 영원한 고전 게임." />
-  <meta name="keywords" content="테트리스,테트리스 게임,블록 게임,무료 게임,온라인 게임" />
+  <title>테트리스 무료 플레이 | 미니게임 놀이터</title>
+  <meta name="description" content="돌리고 쌓아 줄을 지우는 영원한 고전." />
+  <meta name="keywords" content="테트리스,테트리스 온라인,블록" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/ko/games/tetris/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/tetris/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="미니게임 놀이터" />
-  <meta property="og:title" content="테트리스 - 무료 온라인 클래식 블록 게임 | 미니게임 놀이터" />
-  <meta property="og:description" content="블록을 돌리고 쌓아 줄을 지우는 영원한 고전 게임." />
+  <meta property="og:title" content="테트리스 무료 플레이 | 미니게임 놀이터" />
+  <meta property="og:description" content="돌리고 쌓아 줄을 지우는 영원한 고전." />
   <meta property="og:url" content="https://games-hub.cc/ko/games/tetris/" />
   <meta property="og:locale" content="ko_KR" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="테트리스 - 무료 온라인 클래식 블록 게임 | 미니게임 놀이터" />
-  <meta name="twitter:description" content="블록을 돌리고 쌓아 줄을 지우는 영원한 고전 게임." />
+  <meta name="twitter:title" content="테트리스 무료 플레이 | 미니게임 놀이터" />
+  <meta name="twitter:description" content="돌리고 쌓아 줄을 지우는 영원한 고전." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "테트리스",
   "url": "https://games-hub.cc/ko/games/tetris/",
-  "description": "블록을 돌리고 쌓아 줄을 지우는 영원한 고전 게임.",
+  "description": "돌리고 쌓아 줄을 지우는 영원한 고전.",
   "genre": "아케이드",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/ko/"><span class="logo-icon" aria-hidden="true">🕹️</span>미니게임 놀이터</a>
       <ul class="nav-links">
         <li><a href="/ko/">홈</a></li>
-        <li><a href="/ko/#games">전체 게임</a></li>
-        
+        <li><a href="/ko/#games" aria-current="page">전체 게임</a></li>
+        <li><a href="/ko/categories/">카테고리</a></li>
+        <li><a href="/ko/new-games/">새로운 게임</a></li>
+        <li><a href="/ko/popular-games/">인기 게임</a></li>
+        <li><a href="/ko/about/">소개</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 한국어</summary><ul><li><a href="/games/tetris/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/tetris/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/tetris/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/tetris/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/tetris/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/tetris/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/tetris/" hreflang="ko" lang="ko" class="cur">한국어</a></li></ul></details>
     </nav>
@@ -98,7 +99,7 @@
 
   <main class="game-page">
     <h1>🧱 테트리스</h1>
-    <p class="game-sub">떨어지는 블록을 돌리고 쌓아 줄을 채우면 사라집니다. 10줄마다 레벨 업!</p>
+    <p class="game-sub">줄을 채우면 사라집니다. 10줄마다 레벨 업!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="게임 영역">
@@ -106,7 +107,7 @@
           <div class="hud-item"><small>점수</small><span id="score">0</span></div><div class="hud-item"><small>지운 줄</small><span id="lines">0</span></div><div class="hud-item"><small>레벨</small><span id="level">1</span></div>
         </div>
         <div style="display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;justify-content:center;">
-          <canvas id="game-canvas" width="240" height="480" role="img" aria-label="테트리스 게임 보드"></canvas>
+          <canvas id="game-canvas" width="240" height="480" role="img" aria-label="테트리스 판"></canvas>
           <div style="display:flex;flex-direction:column;gap:8px;align-items:center;">
             <strong>다음</strong>
             <canvas id="next-canvas" width="96" height="84" style="background:#141428;border:3px solid var(--ink);border-radius:12px;" role="img" aria-label="다음"></canvas>
@@ -127,17 +128,17 @@
           <h2>🎯 게임 방법</h2>
           <ul>
             <li><kbd>←</kbd><kbd>→</kbd> 이동, <kbd>↓</kbd> 빠른 낙하.</li>
-            <li><kbd>↑</kbd> 또는 <kbd>W</kbd> 회전, <kbd>스페이스바</kbd> 즉시 낙하.</li>
-            <li>한 줄을 가득 채우면 사라지고, 여러 줄 동시 제거 시 점수가 더 높습니다.</li>
-            <li>블록이 꼭대기까지 쌓이면 게임 종료.</li>
+            <li><kbd>↑</kbd>/<kbd>W</kbd> 회전, <kbd>스페이스</kbd> 즉시 낙하.</li>
+            <li>줄 지우기.</li>
+            <li>꼭대기까지 쌓이면 종료.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 고득점 팁</h2>
           <ul>
-            <li>한 칸짜리 우물을 남겨 I 블록으로 4줄을 노리세요.</li>
-            <li>표면을 평평하게 유지하고 구멍을 만들지 마세요.</li>
-            <li>레벨이 오르면 다음 블록 위치를 미리 정하세요.</li>
+            <li>I용 우물 남기기.</li>
+            <li>표면 평평하게.</li>
+            <li>다음 조각 계획.</li>
           </ul>
         </section>
         <section class="panel">
@@ -159,15 +160,34 @@
   <script>window.GAME_I18N = {"gameOver": "게임 종료! 점수: {score}", "paused": "일시정지됨"};</script>
   <script src="/assets/js/games/tetris.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/ko/">홈</a></li>
-      <li><a href="/ko/games/snake/">🐍 스네이크</a></li>
-      <li><a href="/ko/games/2048/">🔢 2048</a></li>
-      <li><a href="/ko/games/tetris/">🧱 테트리스</a></li>
-      <li><a href="/ko/games/minesweeper/">💣 지뢰찾기</a></li>
-      <li><a href="/ko/games/gomoku/">⚫ 오목</a></li>
-      <li><a href="/ko/games/memory/">🃏 메모리 카드</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>미니게임 놀이터</h3>
+        <ul class="footer-links">
+          <li><a href="/ko/">홈</a></li>
+          <li><a href="/ko/categories/">카테고리</a></li>
+          <li><a href="/ko/new-games/">새로운 게임</a></li>
+          <li><a href="/ko/popular-games/">인기 게임</a></li>
+          <li><a href="/ko/about/">소개</a></li>
+          <li><a href="/ko/contact/">문의하기</a></li>
+          <li><a href="/ko/privacy/">개인정보 처리방침</a></li>
+          <li><a href="/ko/terms/">이용 약관</a></li>
+          <li><a href="/ko/cookie/">쿠키 정책</a></li>
+          <li><a href="/ko/dmca/">DMCA / 저작권</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>전체 게임</h3>
+        <ul class="footer-links">
+          <li><a href="/ko/games/snake/">🐍 스네이크</a></li>
+          <li><a href="/ko/games/2048/">🔢 2048</a></li>
+          <li><a href="/ko/games/tetris/">🧱 테트리스</a></li>
+          <li><a href="/ko/games/minesweeper/">💣 지뢰찾기</a></li>
+          <li><a href="/ko/games/gomoku/">⚫ 오목</a></li>
+          <li><a href="/ko/games/memory/">🃏 메모리 카드</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 미니게임 놀이터 · 무료 온라인 게임, 바로 플레이</p>
   </footer>
 </body>

@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2048 게임 - 무료 온라인 숫자 퍼즐 | 미니게임 놀이터</title>
-  <meta name="description" content="같은 숫자를 밀어 합치며 2048까지 만들어 보세요. 간단한 규칙, 무한한 전략." />
-  <meta name="keywords" content="2048,2048 게임,숫자 퍼즐,무료 게임,온라인 게임" />
+  <title>2048 무료 플레이 | 미니게임 놀이터</title>
+  <meta name="description" content="같은 타일을 밀어 합치고 2048까지." />
+  <meta name="keywords" content="2048,2048 온라인,숫자 퍼즐" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/ko/games/2048/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/2048/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="미니게임 놀이터" />
-  <meta property="og:title" content="2048 게임 - 무료 온라인 숫자 퍼즐 | 미니게임 놀이터" />
-  <meta property="og:description" content="같은 숫자를 밀어 합치며 2048까지 만들어 보세요. 간단한 규칙, 무한한 전략." />
+  <meta property="og:title" content="2048 무료 플레이 | 미니게임 놀이터" />
+  <meta property="og:description" content="같은 타일을 밀어 합치고 2048까지." />
   <meta property="og:url" content="https://games-hub.cc/ko/games/2048/" />
   <meta property="og:locale" content="ko_KR" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2048 게임 - 무료 온라인 숫자 퍼즐 | 미니게임 놀이터" />
-  <meta name="twitter:description" content="같은 숫자를 밀어 합치며 2048까지 만들어 보세요. 간단한 규칙, 무한한 전략." />
+  <meta name="twitter:title" content="2048 무료 플레이 | 미니게임 놀이터" />
+  <meta name="twitter:description" content="같은 타일을 밀어 합치고 2048까지." />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "2048",
   "url": "https://games-hub.cc/ko/games/2048/",
-  "description": "같은 숫자를 밀어 합치며 2048까지 만들어 보세요. 간단한 규칙, 무한한 전략.",
+  "description": "같은 타일을 밀어 합치고 2048까지.",
   "genre": "퍼즐",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/ko/"><span class="logo-icon" aria-hidden="true">🕹️</span>미니게임 놀이터</a>
       <ul class="nav-links">
         <li><a href="/ko/">홈</a></li>
-        <li><a href="/ko/#games">전체 게임</a></li>
-        
+        <li><a href="/ko/#games" aria-current="page">전체 게임</a></li>
+        <li><a href="/ko/categories/">카테고리</a></li>
+        <li><a href="/ko/new-games/">새로운 게임</a></li>
+        <li><a href="/ko/popular-games/">인기 게임</a></li>
+        <li><a href="/ko/about/">소개</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 한국어</summary><ul><li><a href="/games/2048/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/2048/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/2048/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/2048/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/2048/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/2048/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/2048/" hreflang="ko" lang="ko" class="cur">한국어</a></li></ul></details>
     </nav>
@@ -98,14 +99,14 @@
 
   <main class="game-page">
     <h1>🔢 2048</h1>
-    <p class="game-sub">타일을 밀어 같은 숫자를 합치고 2부터 2048까지 만들어 보세요!</p>
+    <p class="game-sub">같은 숫자를 합쳐 2에서 2048로.</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="게임 영역">
         <div class="hud">
           <div class="hud-item"><small>점수</small><span id="score">0</span></div><div class="hud-item"><small>최고 기록</small><span id="best">0</span></div>
         </div>
-        <div id="board" class="grid-board board-2048" role="grid" aria-label="2048 게임 보드"></div>
+        <div id="board" class="grid-board board-2048" role="grid" aria-label="2048 판"></div>
         <div class="controls-row"><button class="btn btn-pink" id="btn-restart" type="button">다시 시작</button></div>
         
       </section>
@@ -114,19 +115,19 @@
         <section class="panel">
           <h2>🎯 게임 방법</h2>
           <ul>
-            <li>PC: 방향키 <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> 또는 <kbd>WASD</kbd>로 모든 타일을 밀기.</li>
-            <li>모바일: 보드 위를 상하좌우로 스와이프하세요.</li>
-            <li>같은 숫자 타일이 부딪히면 합쳐져 합계가 됩니다.</li>
-            <li>매 이동 후 새로운 2 또는 4가 나타납니다.</li>
-            <li>2048을 만들면 승리, 움직일 수 없으면 게임 종료.</li>
+            <li>PC: <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd>.</li>
+            <li>모바일: 스와이프.</li>
+            <li>같은 것은 합쳐짐.</li>
+            <li>매번 2 또는 4 등장.</li>
+            <li>2048로 승리.</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 고득점 팁</h2>
           <ul>
-            <li>가장 큰 숫자를 한 모서리에 고정하고 움직이지 마세요.</li>
-            <li>두 방향으로만 밀어 보드를 정돈하세요.</li>
-            <li>큰 숫자를 큰 것부터 지그재그로 배열하면 합치기 쉽습니다.</li>
+            <li>큰 수를 모서리에.</li>
+            <li>두 방향으로.</li>
+            <li>지그재그 배열.</li>
           </ul>
         </section>
         <section class="panel">
@@ -148,15 +149,34 @@
   <script>window.GAME_I18N = {"win": "🎉 2048 달성! 더 높은 점수에 도전하세요", "gameOver": "게임 종료! 점수: {score}", "newGame": "새 게임 시작!"};</script>
   <script src="/assets/js/games/g2048.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/ko/">홈</a></li>
-      <li><a href="/ko/games/snake/">🐍 스네이크</a></li>
-      <li><a href="/ko/games/2048/">🔢 2048</a></li>
-      <li><a href="/ko/games/tetris/">🧱 테트리스</a></li>
-      <li><a href="/ko/games/minesweeper/">💣 지뢰찾기</a></li>
-      <li><a href="/ko/games/gomoku/">⚫ 오목</a></li>
-      <li><a href="/ko/games/memory/">🃏 메모리 카드</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>미니게임 놀이터</h3>
+        <ul class="footer-links">
+          <li><a href="/ko/">홈</a></li>
+          <li><a href="/ko/categories/">카테고리</a></li>
+          <li><a href="/ko/new-games/">새로운 게임</a></li>
+          <li><a href="/ko/popular-games/">인기 게임</a></li>
+          <li><a href="/ko/about/">소개</a></li>
+          <li><a href="/ko/contact/">문의하기</a></li>
+          <li><a href="/ko/privacy/">개인정보 처리방침</a></li>
+          <li><a href="/ko/terms/">이용 약관</a></li>
+          <li><a href="/ko/cookie/">쿠키 정책</a></li>
+          <li><a href="/ko/dmca/">DMCA / 저작권</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>전체 게임</h3>
+        <ul class="footer-links">
+          <li><a href="/ko/games/snake/">🐍 스네이크</a></li>
+          <li><a href="/ko/games/2048/">🔢 2048</a></li>
+          <li><a href="/ko/games/tetris/">🧱 테트리스</a></li>
+          <li><a href="/ko/games/minesweeper/">💣 지뢰찾기</a></li>
+          <li><a href="/ko/games/gomoku/">⚫ 오목</a></li>
+          <li><a href="/ko/games/memory/">🃏 메모리 카드</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 미니게임 놀이터 · 무료 온라인 게임, 바로 플레이</p>
   </footer>
 </body>

@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937915596014514"
-      crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>マインスイーパー - 無料オンライン | ミニゲームランド</title>
-  <meta name="description" content="数字を手がかりに地雷を推理。すべてに旗を立てればクリア！" />
-  <meta name="keywords" content="マインスイーパー,マインスイーパ,地雷ゲーム,無料ゲーム,オンライン" />
+  <title>マインスイーパーを無料で遊ぶ | ミニゲームランド</title>
+  <meta name="description" content="数字を手がかりに地雷を推理し、すべて旗を立てよう。" />
+  <meta name="keywords" content="マインスイーパー,オンライン,ロジック" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://games-hub.cc/ja/games/minesweeper/" />
   <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/minesweeper/" />
@@ -21,13 +19,13 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="ミニゲームランド" />
-  <meta property="og:title" content="マインスイーパー - 無料オンライン | ミニゲームランド" />
-  <meta property="og:description" content="数字を手がかりに地雷を推理。すべてに旗を立てればクリア！" />
+  <meta property="og:title" content="マインスイーパーを無料で遊ぶ | ミニゲームランド" />
+  <meta property="og:description" content="数字を手がかりに地雷を推理し、すべて旗を立てよう。" />
   <meta property="og:url" content="https://games-hub.cc/ja/games/minesweeper/" />
   <meta property="og:locale" content="ja_JP" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="マインスイーパー - 無料オンライン | ミニゲームランド" />
-  <meta name="twitter:description" content="数字を手がかりに地雷を推理。すべてに旗を立てればクリア！" />
+  <meta name="twitter:title" content="マインスイーパーを無料で遊ぶ | ミニゲームランド" />
+  <meta name="twitter:description" content="数字を手がかりに地雷を推理し、すべて旗を立てよう。" />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#ffd23f" />
@@ -43,7 +41,7 @@
   "@type": "VideoGame",
   "name": "マインスイーパー",
   "url": "https://games-hub.cc/ja/games/minesweeper/",
-  "description": "数字を手がかりに地雷を推理。すべてに旗を立てればクリア！",
+  "description": "数字を手がかりに地雷を推理し、すべて旗を立てよう。",
   "genre": "パズル",
   "gamePlatform": "Web Browser",
   "applicationCategory": "Game",
@@ -83,8 +81,11 @@
       <a class="logo" href="/ja/"><span class="logo-icon" aria-hidden="true">🕹️</span>ミニゲームランド</a>
       <ul class="nav-links">
         <li><a href="/ja/">ホーム</a></li>
-        <li><a href="/ja/#games">ゲーム一覧</a></li>
-        
+        <li><a href="/ja/#games" aria-current="page">ゲーム一覧</a></li>
+        <li><a href="/ja/categories/">カテゴリ</a></li>
+        <li><a href="/ja/new-games/">新着ゲーム</a></li>
+        <li><a href="/ja/popular-games/">人気ゲーム</a></li>
+        <li><a href="/ja/about/">運営者情報</a></li>
       </ul>
       <details class="lang-switch"><summary aria-label="Language / 语言">🌐 日本語</summary><ul><li><a href="/games/minesweeper/" hreflang="en" lang="en">English</a></li><li><a href="/zh/games/minesweeper/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/minesweeper/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/minesweeper/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/minesweeper/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/minesweeper/" hreflang="ja" lang="ja" class="cur">日本語</a></li><li><a href="/ko/games/minesweeper/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
     </nav>
@@ -98,7 +99,7 @@
 
   <main class="game-page">
     <h1>💣 マインスイーパー</h1>
-    <p class="game-sub">数字は周囲8マスの地雷の数。推理して全部に旗を立てよう！</p>
+    <p class="game-sub">数字は周囲の地雷数。すべて旗を立てれば勝ち!</p>
 
     <div class="game-layout">
       <section class="stage" aria-label="ゲームエリア">
@@ -108,12 +109,12 @@
         <div class="controls-row">
           <label for="difficulty" style="font-weight:700;">難易度：</label>
           <select id="difficulty" style="font-family:inherit;font-size:1rem;padding:6px 12px;border:3px solid var(--ink);border-radius:10px;background:#fff;">
-            <option value="easy" selected>初級 9×9（地雷10個）</option><option value="medium">中級 12×12（地雷24個）</option><option value="hard">上級 16×16（地雷40個）</option>
+            <option value="easy" selected>易 9×9 (10)</option><option value="medium">中 12×12 (24)</option><option value="hard">難 16×16 (40)</option>
           </select>
           <button class="btn btn-pink" id="btn-restart" type="button">もう一度</button>
         </div>
         <div style="overflow-x:auto;max-width:100%;">
-          <div id="board" class="grid-board board-mine" role="grid" aria-label="マインスイーパーの盤面"></div>
+          <div class="grid-board board-mine" id="board" role="grid" aria-label="マイン盤"></div>
         </div>
         
         
@@ -123,18 +124,18 @@
         <section class="panel">
           <h2>🎯 遊び方</h2>
           <ul>
-            <li>左クリック（スマホはタップ）でマスを開く。</li>
-            <li>右クリック（長押し）で旗を立てる/外す。</li>
-            <li>数字は周囲8マスに隠れた地雷の数を示します。</li>
-            <li>地雷以外の全マスを開けばクリア。最初の1手は必ず安全。</li>
+            <li>左クリックで開く。</li>
+            <li>右(長押し)で旗。</li>
+            <li>数字は周囲の地雷。</li>
+            <li>非地雷を全部開くと勝ち。</li>
           </ul>
         </section>
         <section class="panel">
           <h2>💡 上達のコツ</h2>
           <ul>
-            <li>角や辺から攻めると情報が絞りやすい。</li>
-            <li>数字の周りに必要な旗がそろったら、残りのマスは安全。</li>
-            <li>迷ったらマークして別の場所から突破口を探そう。</li>
+            <li>角から。</li>
+            <li>旗が十分なら残り安全。</li>
+            <li>怪しいをマーク。</li>
           </ul>
         </section>
         <section class="panel">
@@ -156,15 +157,34 @@
   <script>window.GAME_I18N = {"boom": "地雷を踏んだ！タイム {time} 秒", "win": "🎉 クリア！タイム {time} 秒"};</script>
   <script src="/assets/js/games/minesweeper.js" defer></script>
   <footer class="site-footer">
-    <ul class="footer-links">
-      <li><a href="/ja/">ホーム</a></li>
-      <li><a href="/ja/games/snake/">🐍 スネーク</a></li>
-      <li><a href="/ja/games/2048/">🔢 2048</a></li>
-      <li><a href="/ja/games/tetris/">🧱 テトリス</a></li>
-      <li><a href="/ja/games/minesweeper/">💣 マインスイーパー</a></li>
-      <li><a href="/ja/games/gomoku/">⚫ 五目並べ</a></li>
-      <li><a href="/ja/games/memory/">🃏 神経衰弱</a></li>
-    </ul>
+    <div class="footer-cols">
+      <div>
+        <h3>ミニゲームランド</h3>
+        <ul class="footer-links">
+          <li><a href="/ja/">ホーム</a></li>
+          <li><a href="/ja/categories/">カテゴリ</a></li>
+          <li><a href="/ja/new-games/">新着ゲーム</a></li>
+          <li><a href="/ja/popular-games/">人気ゲーム</a></li>
+          <li><a href="/ja/about/">運営者情報</a></li>
+          <li><a href="/ja/contact/">お問い合わせ</a></li>
+          <li><a href="/ja/privacy/">プライバシーポリシー</a></li>
+          <li><a href="/ja/terms/">利用規約</a></li>
+          <li><a href="/ja/cookie/">Cookie ポリシー</a></li>
+          <li><a href="/ja/dmca/">DMCA / 著作権</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>ゲーム一覧</h3>
+        <ul class="footer-links">
+          <li><a href="/ja/games/snake/">🐍 スネーク</a></li>
+          <li><a href="/ja/games/2048/">🔢 2048</a></li>
+          <li><a href="/ja/games/tetris/">🧱 テトリス</a></li>
+          <li><a href="/ja/games/minesweeper/">💣 マインスイーパー</a></li>
+          <li><a href="/ja/games/gomoku/">⚫ 五目並べ</a></li>
+          <li><a href="/ja/games/memory/">🃏 神経衰弱</a></li>
+        </ul>
+      </div>
+    </div>
     <p>© 2026 ミニゲームランド · 無料オンラインゲーム、すぐに遊べる</p>
   </footer>
 </body>

@@ -42,7 +42,7 @@ COMMON = {
         minesLeft="剩余地雷", status="状态", time="用时（秒）", moves="步数", pairs="已配对",
         gameStatus="对局状态", difficulty="难度：",
         up="向上", down="向下", left="向左", right="向右", rotate="旋转", drop="直接落底",
-        hardDrop="加速下落"),
+        hardDrop="加速下落", catSoon="该分类的专属游戏正在筹备中，先试试下面这些人气小游戏吧：", allCategories="查看全部游戏分类"),
     "en": dict(code="en", htmlLang="en", dir="ltr", ogLocale="en_US", native="English",
         siteName="Arcade Games Hub", home="Home", navGames="All Games", navCategories="Categories",
         navNew="New Games", navPopular="Popular Games", navAbout="About Us", navContact="Contact Us",
@@ -55,7 +55,7 @@ COMMON = {
         minesLeft="Mines left", status="Status", time="Time (s)", moves="Moves", pairs="Pairs",
         gameStatus="Game status", difficulty="Difficulty: ",
         up="Up", down="Down", left="Left", right="Right", rotate="Rotate", drop="Hard drop",
-        hardDrop="Soft drop"),
+        hardDrop="Soft drop", catSoon="More games for this category are on the way — try these fan favorites for now:", allCategories="View all game categories"),
     "es": dict(code="es", htmlLang="es", dir="ltr", ogLocale="es_ES", native="Español",
         siteName="Arcade de Minijuegos", home="Inicio", navGames="Todos los juegos", navCategories="Categorías",
         navNew="Nuevos juegos", navPopular="Juegos populares", navAbout="Acerca de", navContact="Contáctanos",
@@ -68,7 +68,7 @@ COMMON = {
         minesLeft="Minas restantes", status="Estado", time="Tiempo (s)", moves="Movimientos", pairs="Parejas",
         gameStatus="Estado de la partida", difficulty="Dificultad: ",
         up="Arriba", down="Abajo", left="Izquierda", right="Derecha", rotate="Girar", drop="Caída instantánea",
-        hardDrop="Caída rápida"),
+        hardDrop="Caída rápida", catSoon="Más juegos de esta categoría están en camino — prueba estos favoritos:", allCategories="Ver todas las categorías"),
     "ar": dict(code="ar", htmlLang="ar", dir="rtl", ogLocale="ar_AR", native="العربية",
         siteName="ألعاب الأركيد", home="الرئيسية", navGames="كل الألعاب", navCategories="الفئات",
         navNew="ألعاب جديدة", navPopular="ألعاب رائجة", navAbout="من نحن", navContact="اتصل بنا",
@@ -81,7 +81,7 @@ COMMON = {
         minesLeft="الألغام المتبقية", status="الحالة", time="الوقت (ث)", moves="المحاولات", pairs="الأزواج",
         gameStatus="حالة المباراة", difficulty="الصعوبة: ",
         up="أعلى", down="أسفل", left="يسار", right="يمين", rotate="تدوير", drop="إسقاط فوري",
-        hardDrop="نزول سريع"),
+        hardDrop="نزول سريع", catSoon="مزيد من ألعاب هذه الفئة قادمة قريبًا — جرّب هذه المفضلة:", allCategories="عرض كل الفئات"),
     "ru": dict(code="ru", htmlLang="ru", dir="ltr", ogLocale="ru_RU", native="Русский",
         siteName="Аркадные мини-игры", home="Главная", navGames="Все игры", navCategories="Категории",
         navNew="Новые игры", navPopular="Популярные игры", navAbout="О нас", navContact="Связаться",
@@ -94,7 +94,7 @@ COMMON = {
         minesLeft="Мин осталось", status="Статус", time="Время (с)", moves="Ходы", pairs="Пары",
         gameStatus="Статус партии", difficulty="Сложность: ",
         up="Вверх", down="Вниз", left="Влево", right="Вправо", rotate="Поворот", drop="Сбросить",
-        hardDrop="Ускорить"),
+        hardDrop="Ускорить", catSoon="Ещё игры этой категории готовятся — пока попробуйте эти популярные:", allCategories="Все категории"),
     "ja": dict(code="ja", htmlLang="ja", dir="ltr", ogLocale="ja_JP", native="日本語",
         siteName="ミニゲームランド", home="ホーム", navGames="ゲーム一覧", navCategories="カテゴリ",
         navNew="新着ゲーム", navPopular="人気ゲーム", navAbout="運営者情報", navContact="お問い合わせ",
@@ -107,7 +107,7 @@ COMMON = {
         minesLeft="残り地雷", status="状態", time="タイム（秒）", moves="手数", pairs="ペア成立",
         gameStatus="対局状態", difficulty="難易度：",
         up="上", down="下", left="左", right="右", rotate="回転", drop="即落下",
-        hardDrop="高速落下"),
+        hardDrop="高速落下", catSoon="このカテゴリのゲームは準備中です。まずは人気のこちらを:", allCategories="すべてのカテゴリを見る"),
     "ko": dict(code="ko", htmlLang="ko", dir="ltr", ogLocale="ko_KR", native="한국어",
         siteName="미니게임 놀이터", home="홈", navGames="전체 게임", navCategories="카테고리",
         navNew="새로운 게임", navPopular="인기 게임", navAbout="소개", navContact="문의하기",
@@ -120,7 +120,7 @@ COMMON = {
         minesLeft="남은 지뢰", status="상태", time="시간(초)", moves="횟수", pairs="맞춘 짝",
         gameStatus="대국 상태", difficulty="난이도: ",
         up="위", down="아래", left="왼쪽", right="오른쪽", rotate="회전", drop="즉시 낙하",
-        hardDrop="빠른 낙하"),
+        hardDrop="빠른 낙하", catSoon="이 분류의 게임을 준비 중입니다. 우선 인기 게임을 즐겨보세요:", allCategories="전체 카테고리 보기"),
 }
 
 HOME = {
@@ -374,6 +374,54 @@ CATEGORY_NAMES = {
     "sports":     {"zh": "运动", "en": "Sports", "es": "Deportes", "ar": "رياضة", "ru": "Спорт", "ja": "スポーツ", "ko": "스포츠"},
     "strategy":   {"zh": "策略", "en": "Strategy", "es": "Estrategia", "ar": "استراتيجية", "ru": "Стратегия", "ja": "ストラテジー", "ko": "전략"},
     "multiplayer":{"zh": "多人", "en": "Multiplayer", "es": "Multijugador", "ar": "لاعبون متعددون", "ru": "Мультиплеер", "ja": "マルチプレイ", "ko": "멀티플레이어"},
+}
+
+# 分类 -> 游戏 slug 映射（一个游戏可属于多个分类）
+CATEGORY_GAMES = {
+    "action":     ["snake"],
+    "adventure":  [],
+    "arcade":     ["snake", "tetris"],
+    "puzzle":     ["2048", "minesweeper", "memory"],
+    "racing":     [],
+    "sports":     [],
+    "strategy":   ["2048", "tetris", "minesweeper", "gomoku"],
+    "multiplayer":["gomoku"],
+}
+
+# 分类页多语言副标题（出现在分类落地页 H1 下方）
+CATEGORY_SUB = {
+    "action":     {"zh": "考验反应与操作的刺激玩法。", "en": "Fast reflexes and quick reactions.",
+                   "es": "Reflejos rápidos y acción pura.", "ar": "ردود فعل سريعة وأكشن نقي.",
+                   "ru": "Быстрые реакции и чистый экшен.", "ja": "素早い反応とアクション。",
+                   "ko": "빠른 반응과 액션."},
+    "adventure":  {"zh": "探索与解谜的奇趣旅程。", "en": "Explore and discover new worlds.",
+                   "es": "Explora y descubre mundos nuevos.", "ar": "استكشف واكتشف عوالم جديدة.",
+                   "ru": "Исследуйте и открывайте новые миры.", "ja": "新しい世界を探検。",
+                   "ko": "새로운 세계를 탐험하세요."},
+    "arcade":     {"zh": "经典街机，点开即玩。", "en": "Classic arcade fun, play instantly.",
+                   "es": "Diversión arcade clásica, al instante.", "ar": "متعة الأركيد الكلاسيكي فوراً.",
+                   "ru": "Классическая аркада, играй сразу.", "ja": "懐かしのアーケード。",
+                   "ko": "클래식 아케이드, 바로 플레이."},
+    "puzzle":     {"zh": "烧脑益智，越玩越聪明。", "en": "Brain-teasing puzzles to train your mind.",
+                   "es": "Puzzles para entrenar la mente.", "ar": "ألغاز لتدريب العقل.",
+                   "ru": "Головоломки для тренировки ума.", "ja": "頭を使うパズル。",
+                   "ko": "두뇌를 훈련하는 퍼즐."},
+    "racing":     {"zh": "极速飙车，畅快淋漓。", "en": "High-speed racing thrills.",
+                   "es": "Emoción a toda velocidad.", "ar": "إثارة السباق بأقصى سرعة.",
+                   "ru": "Гоночная лихорадка на скорости.", "ja": "ハイスピード・レース。",
+                   "ko": "고속 레이싱 스릴."},
+    "sports":     {"zh": "竞技运动，挥洒热情。", "en": "Sports and competitive fun.",
+                   "es": "Deportes y diversión competitiva.", "ar": "رياضة ومنافسة ممتعة.",
+                   "ru": "Спорт и азарт соревнований.", "ja": "スポーツと競技。",
+                   "ko": "스포츠와 경쟁의 재미."},
+    "strategy":   {"zh": "运筹帷幄，步步为营。", "en": "Plan, think and outsmart your rival.",
+                   "es": "Planifica y supera a tu rival.", "ar": "خطط وتفوق على خصمك.",
+                   "ru": "Планируй и обыграй соперника.", "ja": "戦略でライバルに勝つ。",
+                   "ko": "계획으로 라이벌을 이기세요."},
+    "multiplayer":{"zh": "与好友或 AI 同场竞技。", "en": "Play against friends or smart AI.",
+                   "es": "Juega contra amigos o la IA.", "ar": "العب ضد الأصدقاء أو الذكاء الاصطناعي.",
+                   "ru": "Играй с друзьями или ИИ.", "ja": "友達やAIと対戦。",
+                   "ko": "친구나 AI와 대결."},
 }
 
 # 站点页（About/Contact/Privacy/Terms/Cookie/DMCA/Categories/New）的通用多语言文案
@@ -1411,7 +1459,7 @@ def home_page(lang):
     for cat in CATEGORIES:
         name = CATEGORY_NAMES[cat["slug"]][lang]
         cat_items.append(
-            '<li class="cat-card"><a href="{p}/categories/#{slug}"><span class="cat-icon" aria-hidden="true">{icon}</span>'
+            '<li class="cat-card"><a href="{p}/categories/{slug}/"><span class="cat-icon" aria-hidden="true">{icon}</span>'
             '<span class="cat-name">{name}</span></a></li>'.format(
                 p=p, slug=cat["slug"], icon=cat["icon"], name=name))
     cats_html = "\n              ".join(cat_items)
@@ -1775,7 +1823,7 @@ def site_page(lang, slug):
         for cat in CATEGORIES:
             name = CATEGORY_NAMES[cat["slug"]][lang]
             cat_items.append(
-                '<li class="cat-card"><a href="{p}/categories/#{slug}"><span class="cat-icon" aria-hidden="true">{icon}</span>'
+                '<li class="cat-card"><a href="{p}/categories/{slug}/"><span class="cat-icon" aria-hidden="true">{icon}</span>'
                 '<span class="cat-name">{name}</span></a></li>'.format(
                     p=p, slug=cat["slug"], icon=cat["icon"], name=name))
         grid_html = """
@@ -1810,6 +1858,52 @@ def site_page(lang, slug):
             "\n" + header(lang, rel, SITE_PAGES[slug]["current"]) + "\n" + body + footer(lang))
 
 
+def category_page(lang, cat_slug):
+    """生成单一分类的落地页：/categories/<slug>/"""
+    c = COMMON[lang]
+    p = prefix(lang)
+    cat = next(x for x in CATEGORIES if x["slug"] == cat_slug)
+    name = CATEGORY_NAMES[cat_slug][lang]
+    sub = CATEGORY_SUB[cat_slug][lang]
+    rel = "/categories/%s/" % cat_slug
+    icon = cat["icon"]
+
+    game_slugs = CATEGORY_GAMES.get(cat_slug, [])
+    if game_slugs:
+        grid_html = """
+    <section class="section" aria-labelledby="grid-title">
+      <ul class="game-grid">
+{grid}
+      </ul>
+    </section>""".format(grid=game_cards(lang, game_slugs))
+    else:
+        # 暂无专属游戏：显示推荐全部游戏 + 友好提示
+        grid_html = """
+    <section class="section" aria-labelledby="grid-title">
+      <p class="section-desc">{soon}</p>
+      <ul class="game-grid">
+{grid}
+      </ul>
+    </section>""".format(soon=c["catSoon"], grid=game_cards(lang, [g["slug"] for g in GAMES]))
+
+    jsonlds = [breadcrumb_ld(lang, [(c["home"], "/"), (c["navCategories"], "/categories/"), (name, rel)])]
+
+    body = """{breadcrumb}
+
+  <main class="legal-page">
+    <h1>{icon} {name}</h1>
+    <p class="legal-intro">{sub}</p>
+{grid}
+    <p style="margin-top:28px"><a class="btn" href="{p}/categories/">{allCats}</a></p>
+  </main>
+""".format(breadcrumb=breadcrumb(lang, [(c["home"], p + "/"), (c["navCategories"], p + "/categories/"), (name, None)]),
+           icon=icon, name=name, sub=sub, grid=grid_html,
+           p=p, allCats=c["allCategories"])
+
+    return (head(lang, rel, "%s | %s" % (name, c["siteName"]), sub, c["siteName"], jsonlds, is_home=False) +
+            "\n" + header(lang, rel, "categories") + "\n" + body + footer(lang))
+
+
 def write(rel_path, content):
     path = os.path.join(ROOT, rel_path.lstrip("/"))
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -1822,6 +1916,7 @@ def build_sitemap():
     site_urls = ["/", "/categories/", "/new-games/", "/popular-games/",
                  "/about/", "/contact/", "/privacy/", "/terms/", "/cookie/", "/dmca/"]
     urls = site_urls + ["/games/%s/" % g["slug"] for g in GAMES]
+    urls += ["/categories/%s/" % cat["slug"] for cat in CATEGORIES]
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
@@ -1850,6 +1945,8 @@ def main():
             write(prefix(lang) + "/games/%s/index.html" % g["slug"], game_page(lang, g["slug"])); count += 1
         for slug in SITE_PAGES:
             write(prefix(lang) + "/%s/index.html" % slug, site_page(lang, slug)); count += 1
+        for cat in CATEGORIES:
+            write(prefix(lang) + "/categories/%s/index.html" % cat["slug"], category_page(lang, cat["slug"])); count += 1
     write("/sitemap.xml", build_sitemap())
     print("生成完成：%d 个页面 + sitemap.xml" % count)
 

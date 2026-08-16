@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Play Hoops Shoot Online - Free Basketball Sports Game | Arcade Games Hub</title>
+  <meta name="description" content="Drag to aim, release to shoot. Sink as many baskets as you can!" />
+  <meta name="keywords" content="basketball game,hooting game,basketball,shoot hoop,sports game,free basketball" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://games-hub.cc/games/sports/" />
+  <link rel="alternate" hreflang="en" href="https://games-hub.cc/games/sports/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://games-hub.cc/zh/games/sports/" />
+  <link rel="alternate" hreflang="es" href="https://games-hub.cc/es/games/sports/" />
+  <link rel="alternate" hreflang="ar" href="https://games-hub.cc/ar/games/sports/" />
+  <link rel="alternate" hreflang="ru" href="https://games-hub.cc/ru/games/sports/" />
+  <link rel="alternate" hreflang="ja" href="https://games-hub.cc/ja/games/sports/" />
+  <link rel="alternate" hreflang="ko" href="https://games-hub.cc/ko/games/sports/" />
+  <link rel="alternate" hreflang="x-default" href="https://games-hub.cc/games/sports/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Arcade Games Hub" />
+  <meta property="og:title" content="Play Hoops Shoot Online - Free Basketball Sports Game | Arcade Games Hub" />
+  <meta property="og:description" content="Drag to aim, release to shoot. Sink as many baskets as you can!" />
+  <meta property="og:url" content="https://games-hub.cc/games/sports/" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Play Hoops Shoot Online - Free Basketball Sports Game | Arcade Games Hub" />
+  <meta name="twitter:description" content="Drag to aim, release to shoot. Sink as many baskets as you can!" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#ffd23f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" /></noscript>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Hoops Shoot",
+  "url": "https://games-hub.cc/games/sports/",
+  "description": "Drag to aim, release to shoot. Sink as many baskets as you can!",
+  "genre": "Sports",
+  "gamePlatform": "Web Browser",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "inLanguage": "en",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://games-hub.cc/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Hoops Shoot",
+      "item": "https://games-hub.cc/games/sports/"
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="logo" href="/"><span class="logo-icon" aria-hidden="true">🕹️</span>Arcade Games Hub</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#games" aria-current="page">All Games</a></li>
+        <li><a href="/categories/">Categories</a></li>
+        <li><a href="/new-games/">New Games</a></li>
+        <li><a href="/popular-games/">Popular Games</a></li>
+        <li><a href="/about/">About Us</a></li>
+      </ul>
+      <details class="lang-switch"><summary aria-label="Language / 语言">🌐 English</summary><ul><li><a href="/games/sports/" hreflang="en" lang="en" class="cur">English</a></li><li><a href="/zh/games/sports/" hreflang="zh-CN" lang="zh-CN">中文</a></li><li><a href="/es/games/sports/" hreflang="es" lang="es">Español</a></li><li><a href="/ar/games/sports/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/ru/games/sports/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/ja/games/sports/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/ko/games/sports/" hreflang="ko" lang="ko">한국어</a></li></ul></details>
+    </nav>
+  </header>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li aria-current="page">Hoops Shoot</li>
+    </ol>
+  </nav>
+
+  <main class="game-page">
+    <h1>⚽ Hoops Shoot</h1>
+    <p class="game-sub">Drag on the screen to set angle and power, release to shoot. Score every ball that drops through the hoop.</p>
+
+    <div class="game-layout">
+      <section class="stage" aria-label="Game area">
+        <div class="hud">
+          <div class="hud-item"><small>Score</small><span id="score">0</span></div><div class="hud-item"><small>Shots</small><span id="attempts">0</span></div>
+        </div>
+        <canvas id="game-canvas" width="420" height="520" role="img" aria-label="Basketball shooting area"></canvas>
+        <div class="controls-row"><button class="btn btn-green" id="btn-start" type="button">Start</button><button class="btn btn-pink" id="btn-restart" type="button">Restart</button></div>
+        
+      </section>
+
+      <aside class="side-panel">
+        <section class="panel">
+          <h2>🎯 How to play</h2>
+          <ul>
+            <li>Press and drag on the screen, then release to shoot toward the hoop.</li>
+            <li>Or click Start for an auto-aimed shot.</li>
+            <li>A ball through the hoop scores; misses can be retried.</li>
+            <li>The more you sink in a row, the higher your score.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>💡 Pro tips</h2>
+          <ul>
+            <li>Aim so the trajectory points at the hoop center.</li>
+            <li>Use moderate power — too much or too little misses.</li>
+            <li>Sink consecutively to keep your rhythm.</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>🕹️ More games</h2>
+          <ul class="more-games">
+            <li><a href="/games/snake/">🐍 Snake</a></li>
+            <li><a href="/games/2048/">🔢 2048</a></li>
+            <li><a href="/games/tetris/">🧱 Tetris</a></li>
+            <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+            <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+            <li><a href="/games/memory/">🃏 Memory Match</a></li>
+            <li><a href="/games/racing/">🏎️ Dodge Racer</a></li>
+            <li><a href="/games/adventure/">🗺️ Maze Adventure</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>window.GAME_I18N = {"score": "Swoosh! +1", "miss": "Missed! Try again"};</script>
+  <script src="/assets/js/games/gsports.js" defer></script>
+  <footer class="site-footer">
+    <div class="footer-cols">
+      <div>
+        <h3>Arcade Games Hub</h3>
+        <ul class="footer-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/categories/">Categories</a></li>
+          <li><a href="/new-games/">New Games</a></li>
+          <li><a href="/popular-games/">Popular Games</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/cookie/">Cookie Policy</a></li>
+          <li><a href="/dmca/">DMCA / Copyright</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>All Games</h3>
+        <ul class="footer-links">
+          <li><a href="/games/snake/">🐍 Snake</a></li>
+          <li><a href="/games/2048/">🔢 2048</a></li>
+          <li><a href="/games/tetris/">🧱 Tetris</a></li>
+          <li><a href="/games/minesweeper/">💣 Minesweeper</a></li>
+          <li><a href="/games/gomoku/">⚫ Gomoku</a></li>
+          <li><a href="/games/memory/">🃏 Memory Match</a></li>
+          <li><a href="/games/racing/">🏎️ Dodge Racer</a></li>
+          <li><a href="/games/sports/">⚽ Hoops Shoot</a></li>
+          <li><a href="/games/adventure/">🗺️ Maze Adventure</a></li>
+        </ul>
+      </div>
+    </div>
+    <p>© 2026 Arcade Games Hub · Free online games, play instantly</p>
+  </footer>
+</body>
+</html>
